@@ -2,6 +2,7 @@
 
 require "net/http"
 require "json"
+require "nokogiri"
 
 module Pubmedly
   class PubmedClient
@@ -40,6 +41,36 @@ module Pubmedly
       raise "Error: #{response.code} - #{response.body}" if response.code != "200"
 
       response.body
+    end
+
+    def fetch(pubmed_ids)
+      url = "#{BASE_URL}/efetch.fcgi?db=pubmed&id=#{pubmed_ids.join(',')}&rettype=xml&retmode=xml"
+
+      response = Net::HTTP.get_response(URI.parse(url))
+
+      raise "Error: #{response.code} - #{response.body}" if response.code != "200"
+      
+      xml_response = response.body
+
+      # Parse the XML response using Nokogiri
+      doc = Nokogiri::XML(xml_response)
+
+      # Extract relevant information from the parsed XML response
+      articles = []
+      pubmed_articles = doc.xpath('//PubmedArticle')
+
+      pubmed_articles.each do |pubmed_article|
+        article = {}
+        article['title'] = pubmed_article.xpath('.//ArticleTitle').text
+        article['abstract'] = pubmed_article.xpath('.//Abstract/AbstractText').text
+        article['authors'] = pubmed_article.xpath('.//AuthorList/Author').map do |author|
+          author.xpath('.//LastName').text + ' ' + author.xpath('.//Initials').text
+        end
+        # ... add more fields as needed ...
+        articles << article
+      end
+
+      articles
     end
   end
 end
