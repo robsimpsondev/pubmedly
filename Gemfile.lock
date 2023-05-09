@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     pubmedly (0.1.0)
-      nokogiri (~> 1.6)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
@@ -17,6 +17,8 @@ GEM
     hashdiff (1.0.1)
     json (2.6.3)
     nokogiri (1.14.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     parser (3.2.2.0)
@@ -62,15 +64,16 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   byebug
   pubmedly!
-  rake (~> 13.0)
-  rspec (~> 3.0)
-  rubocop (~> 1.21)
-  vcr (~> 6.1.0)
-  webmock (~> 3.18)
+  rake
+  rspec
+  rubocop
+  vcr
+  webmock
 
 BUNDLED WITH
    2.4.10
