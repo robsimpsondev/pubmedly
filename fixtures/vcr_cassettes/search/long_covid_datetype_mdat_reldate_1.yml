@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&datetype=crdt&db=pubmed&reldate=1&term=long%20covid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 09 May 2023 15:15:52 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 67DFD33FB696F967_5E4ASID
+      Ncbi-Phid:
+      - 939B45F189B62B1500002D32D6AC3975.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=67DFD33FB696F967_5E4ASID; domain=.nih.gov; path=/; expires=Thu, 09
+        May 2024 15:15:52 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>47</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37156258</Id>
+        <Id>37156053</Id>
+        <Id>37155736</Id>
+        <Id>37155526</Id>
+        <Id>37155525</Id>
+        <Id>37155451</Id>
+        <Id>37155393</Id>
+        <Id>37154608</Id>
+        <Id>37154529</Id>
+        <Id>37154433</Id>
+        <Id>37154432</Id>
+        <Id>37154300</Id>
+        <Id>37154188</Id>
+        <Id>37153938</Id>
+        <Id>37153716</Id>
+        <Id>37153651</Id>
+        <Id>37153597</Id>
+        <Id>37153551</Id>
+        <Id>37153419</Id>
+        <Id>37153417</Id>
+        </IdList><TranslationSet><Translation>     <From>long covid</From>     <To>"post-acute covid-19 syndrome"[MeSH Terms] OR ("post-acute"[All Fields] AND "covid-19"[All Fields] AND "syndrome"[All Fields]) OR "post-acute covid-19 syndrome"[All Fields] OR ("long"[All Fields] AND "covid"[All Fields]) OR "long covid"[All Fields]</To>    </Translation></TranslationSet><QueryTranslation>("post acute covid 19 syndrome"[MeSH Terms] OR ("post acute"[All Fields] AND "covid 19"[All Fields] AND "syndrome"[All Fields]) OR "post acute covid 19 syndrome"[All Fields] OR ("long"[All Fields] AND "covid"[All Fields]) OR "long covid"[All Fields]) AND 2023/05/08:2023/05/09[Date - Create]</QueryTranslation></eSearchResult>
+  recorded_at: Tue, 09 May 2023 15:15:52 GMT
+recorded_with: VCR 6.1.0

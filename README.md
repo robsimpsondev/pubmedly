@@ -1,8 +1,12 @@
 # Pubmedly
 
-TODO: Delete this and the text below, and describe your gem
+WIP
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pubmedly`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem provides a `Pubmedly::Client` with methods that get data from the NCBI's [Pubmed database](https://pubmed.ncbi.nlm.nih.gov/) using their [eutils APIs](https://www.ncbi.nlm.nih.gov/books/NBK25499/).
+
+Furthermore, this gem provides a `Pubmedly::Pubmed` class that makes interacting with the eutils APIs easier by parsing responses using `Pubmedly::Parser` and providing a `Pubmedly::Article` class that wraps raw article data. The NCBI provide a _WebEnv_ identifier used to access and manipulate search results (identified by `query_key`s) saved to their History server, which is also supported.
+
+You will need an API key to use this gem; how to do this is simple and introduced with context [here](https://www.ncbi.nlm.nih.gov/books/NBK25497/).
 
 ## Installation
 
@@ -18,7 +22,21 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+`Pubmedly::Client` has methods synonymous with the NCBI's eutils API, and the raw web responses are returned with data in XML (default) or JSON.
+
+```ruby
+client = Pubmedly::Client.new("<YOUR_NCBI_API_KEY>")
+client.search("Bifidobacterium longum", retmax: 10)
+# todo add raw response
+```
+
+`Pubmedly::Pubmed` wraps the NCBI API methods implemented in `Pubmedly::Client` to make getting useful results more straightforward.
+
+```ruby
+pubmed = Pubmedly::Client.new("<YOUR_NCBI_API_KEY>")
+ids, count = pubmed.search("Bifidobacterium longum", retmax: 10, sort: "pub_date")
+count      = pubmed.search("covid AND small intestine AND 2023[pdate]", rettype: count)
+```
 
 ## Development
 

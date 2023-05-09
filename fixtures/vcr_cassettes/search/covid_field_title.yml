@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&field=title&term=covid%20neuropathy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 May 2023 12:57:32 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - E8859EB548C69975_347DSID
+      Ncbi-Phid:
+      - D0BD3E605317725500005157E91A7050.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=E8859EB548C69975_347DSID; domain=.nih.gov; path=/; expires=Mon, 06
+        May 2024 12:57:32 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>105</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>36996121</Id>
+        <Id>36981826</Id>
+        <Id>36974402</Id>
+        <Id>36930323</Id>
+        <Id>36925320</Id>
+        <Id>36910382</Id>
+        <Id>36874724</Id>
+        <Id>36854349</Id>
+        <Id>36742446</Id>
+        <Id>36728648</Id>
+        <Id>36728115</Id>
+        <Id>36703768</Id>
+        <Id>36701188</Id>
+        <Id>36624618</Id>
+        <Id>36622477</Id>
+        <Id>36617454</Id>
+        <Id>36464528</Id>
+        <Id>36462223</Id>
+        <Id>36321540</Id>
+        <Id>36303493</Id>
+        </IdList><TranslationSet/><QueryTranslation>"covid"[Title] AND "neuropathy"[Title]</QueryTranslation></eSearchResult>
+  recorded_at: Sat, 06 May 2023 12:57:32 GMT
+recorded_with: VCR 6.1.0

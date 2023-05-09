@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&term=reverse%20transcriptase%20inhibitors%20%5Bpa%5D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 May 2023 12:57:28 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 5A5303D40731CE20_3DCCSID
+      Ncbi-Phid:
+      - D0BD3E605317725500004457D677488C.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=5A5303D40731CE20_3DCCSID; domain=.nih.gov; path=/; expires=Mon, 06
+        May 2024 12:57:28 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>37743</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37139650</Id>
+        <Id>37137855</Id>
+        <Id>37137824</Id>
+        <Id>37130123</Id>
+        <Id>37126755</Id>
+        <Id>37122705</Id>
+        <Id>37112921</Id>
+        <Id>37112915</Id>
+        <Id>37112904</Id>
+        <Id>37112830</Id>
+        <Id>37098852</Id>
+        <Id>37081752</Id>
+        <Id>37067214</Id>
+        <Id>37061778</Id>
+        <Id>37061288</Id>
+        <Id>37059996</Id>
+        <Id>37051195</Id>
+        <Id>37049868</Id>
+        <Id>37049771</Id>
+        <Id>37048107</Id>
+        </IdList><TranslationSet/><QueryTranslation>"reverse transcriptase inhibitors"[Pharmacological Action]</QueryTranslation></eSearchResult>
+  recorded_at: Sat, 06 May 2023 12:57:28 GMT
+recorded_with: VCR 6.1.0

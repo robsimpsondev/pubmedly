@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&retmode=json&term=prusty%5Bau%5D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 May 2023 12:57:31 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - EF9A79B4DE354510_A300SID
+      Ncbi-Phid:
+      - 322C284454D7F9A500003634194FEBBB.1.1.m_1
+      Content-Type:
+      - application/json; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=EF9A79B4DE354510_A300SID; domain=.nih.gov; path=/; expires=Mon, 06
+        May 2024 12:57:32 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"337","retmax":"20","retstart":"0","idlist":["37143874","37079243","36927830","36922257","36890450","36846883","36804543","36800356","36786390","36712720","36697465","36674296","36640615","36606375","36589231","36580352","36565644","36373193","36283456","36197108"],"translationset":[],"querytranslation":"prusty[Author]"}}
+
+        '
+  recorded_at: Sat, 06 May 2023 12:57:32 GMT
+recorded_with: VCR 6.1.0

@@ -1,76 +1,42 @@
 # frozen_string_literal: true
 
+# Provides a Ruby client for accessing the NCBI's Pubmed database through the eutils API.
+# The NCBI eutils API provides access to many databases, but these out of the scope of pubmedly:
+# https://www.ncbi.nlm.nih.gov/books/NBK25497/table/chapter2.T._entrez_unique_identifiers_ui/?report=objectonly
+
 require "net/http"
-require "json"
-require "nokogiri"
 
 module Pubmedly
-  class PubmedClient
+  class Client
     BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+    NCBI_DB  = "pubmed"
 
     def initialize(api_key)
       @api_key = api_key
     end
 
-    def search(query, options = {})
-      db       = options.fetch(:db, "pubmed")
-      retmax   = options.fetch(:retmax, 10)
-      retstart = options.fetch(:retstart, 0)
-      sort     = options.fetch(:sort, "relevance")
-      fields   = options.fetch(:fields, "id,title,abstract")
-      summary  = options.fetch(:summary, "short")
+    def search(term, **kwargs)
+      # https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch
+      # For guidance on search terms: https://pubmed.ncbi.nlm.nih.gov/help/#how-do-i-search-pubmed
+      # To understand term mapping:   https://pubmed.ncbi.nlm.nih.gov/help/#automatic-term-mapping
+      # List of all field tags:       https://pubmed.ncbi.nlm.nih.gov/help/#search-tags
+      # Parameters for retrieval:     https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch
+      # datetype parameter options:   https://dataguide.nlm.nih.gov/eutilities/utilities.html#esearch-date-filter-parameters
 
       url  = URI.parse("#{BASE_URL}esearch.fcgi")
 
-      http = Net::HTTP.new(url.host, url.port)
+      params = kwargs.merge({
+        db:       NCBI_DB,
+        api_key:  @api_key,
+        term:     term,
+      })
+
+      url.query = URI.encode_www_form(params)
+
+      http         = Net::HTTP.new(url.host, url.port)
       http.use_ssl = true
 
-      params = {
-        "db" => db,
-        "term" => query,
-        "retmax" => retmax,
-        "retstart" => retstart,
-        "sort" => sort,
-        "fields" => fields,
-        "api_key" => @api_key,
-        "summary" => summary
-      }
-      url.query = URI.encode_www_form(params)
-      response  = http.request(Net::HTTP::Get.new(url.request_uri))
-
-      raise "Error: #{response.code} - #{response.body}" if response.code != "200"
-
-      response.body
-    end
-
-    def fetch(pubmed_ids)
-      url = "#{BASE_URL}/efetch.fcgi?db=pubmed&id=#{pubmed_ids.join(',')}&rettype=xml&retmode=xml"
-
-      response = Net::HTTP.get_response(URI.parse(url))
-
-      raise "Error: #{response.code} - #{response.body}" if response.code != "200"
-      
-      xml_response = response.body
-
-      # Parse the XML response using Nokogiri
-      doc = Nokogiri::XML(xml_response)
-
-      # Extract relevant information from the parsed XML response
-      articles = []
-      pubmed_articles = doc.xpath('//PubmedArticle')
-
-      pubmed_articles.each do |pubmed_article|
-        article = {}
-        article['title'] = pubmed_article.xpath('.//ArticleTitle').text
-        article['abstract'] = pubmed_article.xpath('.//Abstract/AbstractText').text
-        article['authors'] = pubmed_article.xpath('.//AuthorList/Author').map do |author|
-          author.xpath('.//LastName').text + ' ' + author.xpath('.//Initials').text
-        end
-        # ... add more fields as needed ...
-        articles << article
-      end
-
-      articles
+      http.request(Net::HTTP::Get.new(url.request_uri))
     end
   end
 end

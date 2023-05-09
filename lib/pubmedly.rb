@@ -2,8 +2,10 @@
 
 require_relative "pubmedly/version"
 require_relative "pubmedly/client"
+require_relative "pubmedly/parser"
+require_relative "pubmedly/pubmed"
 
 module Pubmedly
-  class Error < StandardError; end
+  class ApiWarning < StandardError; end
   # Your code goes here...
 end

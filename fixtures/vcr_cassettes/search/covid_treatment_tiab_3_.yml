@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&term=%22covid%20treatment%22%5Btiab:~3%5D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 May 2023 12:57:30 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 10503B57A7605FEE_2E5ESID
+      Ncbi-Phid:
+      - 322C284454D7F9A50000293415C40F30.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=10503B57A7605FEE_2E5ESID; domain=.nih.gov; path=/; expires=Mon, 06
+        May 2024 12:57:30 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>12289</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37146294</Id>
+        <Id>37146076</Id>
+        <Id>37145915</Id>
+        <Id>37144613</Id>
+        <Id>37144543</Id>
+        <Id>37143454</Id>
+        <Id>37143268</Id>
+        <Id>37143093</Id>
+        <Id>37142512</Id>
+        <Id>37141430</Id>
+        <Id>37141128</Id>
+        <Id>37140952</Id>
+        <Id>37140398</Id>
+        <Id>37138473</Id>
+        <Id>37138304</Id>
+        <Id>37138292</Id>
+        <Id>37137489</Id>
+        <Id>37134108</Id>
+        <Id>37133827</Id>
+        <Id>37131073</Id>
+        </IdList><TranslationSet/><QueryTranslation>"covid treatment"[Title/Abstract:~3]</QueryTranslation></eSearchResult>
+  recorded_at: Sat, 06 May 2023 12:57:30 GMT
+recorded_with: VCR 6.1.0

@@ -11,4 +11,8 @@ gem "rspec", "~> 3.0"
 
 gem "rubocop", "~> 1.21"
 
-gem "nokogiri", "~> 1.14"
+gem "vcr", "~> 6.1.0"
+
+gem "webmock", "~> 3.18"
+
+gem "byebug"

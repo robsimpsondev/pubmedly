@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&term=%22varicella%20zoster%22
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 06 May 2023 12:57:24 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 10B8F04370E7FC55_F406SID
+      Ncbi-Phid:
+      - D0BD3E605317725500004157C3037622.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=10B8F04370E7FC55_F406SID; domain=.nih.gov; path=/; expires=Mon, 06
+        May 2024 12:57:25 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>10983</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37141390</Id>
+        <Id>37140467</Id>
+        <Id>37139034</Id>
+        <Id>37134179</Id>
+        <Id>37130545</Id>
+        <Id>37130482</Id>
+        <Id>37129752</Id>
+        <Id>37128573</Id>
+        <Id>37123734</Id>
+        <Id>37120914</Id>
+        <Id>37120396</Id>
+        <Id>37119870</Id>
+        <Id>37119057</Id>
+        <Id>37115793</Id>
+        <Id>37115546</Id>
+        <Id>37109766</Id>
+        <Id>37109039</Id>
+        <Id>37102032</Id>
+        <Id>37098507</Id>
+        <Id>37093042</Id>
+        </IdList><TranslationSet/><QueryTranslation>"varicella zoster"[All Fields]</QueryTranslation></eSearchResult>
+  recorded_at: Sat, 06 May 2023 12:57:25 GMT
+recorded_with: VCR 6.1.0
