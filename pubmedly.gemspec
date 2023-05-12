@@ -40,6 +40,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
   spec.add_development_dependency "byebug"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-reload"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

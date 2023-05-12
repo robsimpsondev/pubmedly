@@ -1,0 +1,141 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&id=36410718&rettype=medline
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 14:28:22 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - AC5C283D28124496_86D2SID
+      Ncbi-Phid:
+      - D0BD21C97A74FF5500004F0CAFBD1B10.1.1.m_5
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '9'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=AC5C283D28124496_86D2SID; domain=.nih.gov; path=/; expires=Fri, 10
+        May 2024 14:28:22 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: "\nPMID- 36410718\nOWN - NLM\nSTAT- MEDLINE\nDCOM- 20230131\nLR  - 20230314\nIS
+        \ - 1476-4687 (Electronic)\nIS  - 0028-0836 (Print)\nIS  - 0028-0836 (Linking)\nVI
+        \ - 613\nIP  - 7944\nDP  - 2023 Jan\nTI  - Pre-T cell receptor self-MHC sampling
+        restricts thymocyte dedifferentiation.\nPG  - 565-574\nLID - 10.1038/s41586-022-05555-7
+        [doi]\nAB  - Programming T cells to distinguish self from non-self is a vital,
+        multi-step \n      process that occurs in the thymus(1-4). Signalling through
+        the pre-T cell \n      receptor (preTCR), a CD3-associated heterodimer comprising
+        an invariant pTalpha chain \n      and a clone-specific beta chain, is a critical
+        early checkpoint in thymocyte \n      development within the alphabeta T cell
+        lineage(5,6). PreTCRs arrayed on CD4(-)CD8(-) \n      double-negative thymocytes
+        ligate peptides bound to major histocompatibility \n      complex molecules
+        (pMHC) on thymic stroma, similar to alphabeta T cell receptors that \n      appear
+        on CD4(+)CD8(+) double-positive thymocytes, but via a different molecular
+        \n      docking strategy(7-10). Here we show the consequences of these distinct
+        \n      interactions for thymocyte progression using synchronized fetal thymic
+        progenitor \n      cultures that differ in the presence or absence of pMHC
+        on support stroma, and \n      single-cell transcriptomes at key thymocyte
+        developmental transitions. Although \n      major histocompatibility complex
+        (MHC)-negative stroma fosters alphabeta T cell \n      differentiation, the
+        absence of preTCR-pMHC interactions leads to deviant \n      thymocyte transcriptional
+        programming associated with dedifferentiation. Highly \n      proliferative
+        double-negative and double-positive thymocyte subsets emerge, with \n      antecedent
+        characteristics of T cell lymphoblastic and myeloid malignancies. \n      Compensatory
+        upregulation of diverse MHC class Ib proteins in B2m/H2-Ab1 \n      MHC-knockout
+        mice partially safeguards in vivo thymocyte progression, although \n      disseminated
+        double-positive thymic tumours may develop with ageing. Thus, as \n      well
+        as promoting beta chain repertoire broadening for subsequent alphabeta T cell
+        receptor \n      utilization, preTCR-pMHC interactions limit cellular plasticity
+        to facilitate \n      normal thymocyte differentiation and proliferation that,
+        if absent, introduce \n      developmental vulnerabilities.\nCI  - (c) 2022.
+        The Author(s), under exclusive licence to Springer Nature Limited.\nFAU -
+        Duke-Cohan, Jonathan S\nAU  - Duke-Cohan JS\nAUID- ORCID: 0000-0002-9478-9609\nAD
+        \ - Laboratory of Immunobiology, Dana-Farber Cancer Institute, Boston, MA,
+        USA. \n      jonathan_duke-cohan@dfci.harvard.edu.\nAD  - Department of Medical
+        Oncology, Dana-Farber Cancer Institute, Boston, MA, USA. \n      jonathan_duke-cohan@dfci.harvard.edu.\nAD
+        \ - Department of Medicine, Harvard Medical School, Boston, MA, USA. \n      jonathan_duke-cohan@dfci.harvard.edu.\nFAU
+        - Akitsu, Aoi\nAU  - Akitsu A\nAD  - Laboratory of Immunobiology, Dana-Farber
+        Cancer Institute, Boston, MA, USA.\nAD  - Department of Medical Oncology,
+        Dana-Farber Cancer Institute, Boston, MA, USA.\nAD  - Department of Medicine,
+        Harvard Medical School, Boston, MA, USA.\nFAU - Mallis, Robert J\nAU  - Mallis
+        RJ\nAD  - Laboratory of Immunobiology, Dana-Farber Cancer Institute, Boston,
+        MA, USA.\nAD  - Department of Medical Oncology, Dana-Farber Cancer Institute,
+        Boston, MA, USA.\nAD  - Department of Dermatology, Harvard Medical School,
+        Boston, MA, USA.\nFAU - Messier, Cameron M\nAU  - Messier CM\nAD  - Belfer
+        Center for Applied Cancer Science, Dana-Farber Cancer Institute, Boston, \n
+        \     MA, USA.\nFAU - Lizotte, Patrick H\nAU  - Lizotte PH\nAUID- ORCID: 0000-0001-9510-0036\nAD
+        \ - Belfer Center for Applied Cancer Science, Dana-Farber Cancer Institute,
+        Boston, \n      MA, USA.\nFAU - Aster, Jon C\nAU  - Aster JC\nAD  - Department
+        of Pathology, Brigham and Women's Hospital and Harvard Medical School, \n
+        \     Boston, MA, USA.\nFAU - Hwang, Wonmuk\nAU  - Hwang W\nAUID- ORCID: 0000-0001-7514-3186\nAD
+        \ - Department of Biomedical Engineering, Texas A&M University, College Station,
+        TX, \n      USA.\nAD  - Department of Materials Science and Engineering, Texas
+        A&M University, College \n      Station, TX, USA.\nAD  - Department of Physics
+        and Astronomy, Texas A&M University, College Station, TX, \n      USA.\nFAU
+        - Lang, Matthew J\nAU  - Lang MJ\nAUID- ORCID: 0000-0002-8198-144X\nAD  -
+        Department of Chemical and Biomolecular Engineering, Vanderbilt University,
+        \n      Nashville, TN, USA.\nAD  - Department of Molecular Physiology and
+        Biophysics, Vanderbilt University, \n      Nashville, TN, USA.\nFAU - Reinherz,
+        Ellis L\nAU  - Reinherz EL\nAUID- ORCID: 0000-0003-1048-5526\nAD  - Laboratory
+        of Immunobiology, Dana-Farber Cancer Institute, Boston, MA, USA. \n      ellis_reinherz@dfci.harvard.edu.\nAD
+        \ - Department of Medical Oncology, Dana-Farber Cancer Institute, Boston,
+        MA, USA. \n      ellis_reinherz@dfci.harvard.edu.\nAD  - Department of Medicine,
+        Harvard Medical School, Boston, MA, USA. \n      ellis_reinherz@dfci.harvard.edu.\nLA
+        \ - eng\nGR  - P01 AI143565/AI/NIAID NIH HHS/United States\nGR  - R01 AI136301/AI/NIAID
+        NIH HHS/United States\nGR  - P30 CA006516-57/CA/NCI NIH HHS/United States\nPT
+        \ - Journal Article\nPT  - Research Support, N.I.H., Extramural\nPT  - Research
+        Support, Non-U.S. Gov't\nDEP - 20221121\nPL  - England\nTA  - Nature\nJT  -
+        Nature\nJID - 0410462\nRN  - 0 (Peptides)\nRN  - 0 (Receptors, Antigen, T-Cell)\nRN
+        \ - 0 (Histocompatibility Antigens Class I)\nSB  - IM\nCIN - Nature. 2023
+        Jan;613(7944):440-442. PMID: 36646871\nMH  - Animals\nMH  - Mice\nMH  - Mice,
+        Knockout\nMH  - Molecular Docking Simulation\nMH  - Peptides/immunology/metabolism\nMH
+        \ - *Thymocytes/cytology/immunology\nMH  - Thymus Gland/cytology/immunology\nMH
+        \ - *Receptors, Antigen, T-Cell/immunology/metabolism\nMH  - *Cell Dedifferentiation\nMH
+        \ - *Histocompatibility Antigens Class I/immunology/metabolism\nPMC - PMC9851994\nMID
+        - NIHMS1855620\nCOIS- Competing interests The authors declare no competing
+        interest.\nEDAT- 2022/11/22 06:00\nMHDA- 2023/01/21 06:00\nPMCR- 2023/07/01\nCRDT-
+        2022/11/21 20:02\nPHST- 2021/09/03 00:00 [received]\nPHST- 2022/11/11 00:00
+        [accepted]\nPHST- 2023/07/01 00:00 [pmc-release]\nPHST- 2022/11/22 06:00 [pubmed]\nPHST-
+        2023/01/21 06:00 [medline]\nPHST- 2022/11/21 20:02 [entrez]\nAID - 10.1038/s41586-022-05555-7
+        [pii]\nAID - 10.1038/s41586-022-05555-7 [doi]\nPST - ppublish\nSO  - Nature.
+        2023 Jan;613(7944):565-574. doi: 10.1038/s41586-022-05555-7. Epub 2022 \n
+        \     Nov 21.\n"
+  recorded_at: Wed, 10 May 2023 14:28:22 GMT
+recorded_with: VCR 6.1.0

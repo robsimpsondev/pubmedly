@@ -2,7 +2,8 @@
 
 require_relative "pubmedly/version"
 require_relative "pubmedly/client"
-require_relative "pubmedly/parser"
+require_relative "pubmedly/parsers/article"
+require_relative "pubmedly/parsers/response"
 require_relative "pubmedly/pubmed"
 
 module Pubmedly

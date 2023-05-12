@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-require "net/http"
-require "json"
-require "nokogiri"
-
 module Pubmedly
   class Pubmed
 
@@ -12,7 +8,15 @@ module Pubmedly
     end
 
     def search(...)
-      Parser.new(client.search(...)).ids
+      Parsers::Response.new(@client.search(...)).ids
+    end
+
+    def fetch(...)
+      Parsers::Response.new(@client.fetch(...)).articles
+    end
+
+    def articles(term, **kwargs)
+      fetch(search(term, **kwargs), **kwargs)
     end
   end
 end

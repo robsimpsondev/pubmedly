@@ -224,6 +224,65 @@ module Pubmedly
     end
 
     describe "fetch" do
+      it "takes a single id" do
+        VCR.use_cassette("fetch/36410718") do
+          response = client.fetch(36410718)
+          expect(response).to be_a Net::HTTPOK
+          expect(response.body).to include "<PubmedArticle>"
+          expect(response.body).to include "<PMID Version=\"1\">36410718</PMID>"
+        end
+      end
+
+      it "takes an array of ids" do
+        VCR.use_cassette("fetch/36410718 36460909") do
+          response = client.fetch([36410718, 36460909])
+          expect(response).to be_a Net::HTTPOK
+          expect(response.body).to include("<PubmedArticle>").twice
+          expect(response.body).to include "<PMID Version=\"1\">36410718</PMID>"
+          expect(response.body).to include "<PMID Version=\"1\">36460909</PMID>"
+        end
+      end
+
+      describe "optional parameters for retrieval" do
+        describe "retmode" do
+          it "can be text" do
+            VCR.use_cassette("fetch/36410718 retmode text") do
+              response = client.fetch(36410718, retmode: :text)
+              expect(response).to be_a Net::HTTPOK
+              expect(response.body).to eq "36410718\n"
+            end
+          end
+
+          it "with explicit abstract rettype" do
+            VCR.use_cassette("fetch/36410718 retmode text rettype abstract") do
+              response = client.fetch(36410718, retmode: :text, rettype: :abstract)
+              expect(response).to be_a Net::HTTPOK
+              expect(response.body).to include "Nature. 2023 Jan;613(7944):565-574. doi: 10.1038/s41586-022-05555-7."
+            end
+          end
+        end
+
+        describe "rettype" do
+          # the default rettype seems to be abstract
+          # https://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.T._valid_values_of__retmode_and/?report=objectonly
+          it "can be medline" do
+            VCR.use_cassette("fetch/36410718 rettype medline") do
+              response = client.fetch(36410718, rettype: :medline)
+              expect(response).to be_a Net::HTTPOK
+              expect(response.body).to include "PMID- 36410718\n"
+              expect(response.body).to include "STAT- MEDLINE\n"
+            end
+          end
+
+          it "can be uilist" do
+            VCR.use_cassette("fetch/36410718 rettype uilist") do
+              response = client.fetch(36410718, rettype: :uilist)
+              expect(response).to be_a Net::HTTPOK
+              expect(response.body).to eq "36410718\n"
+            end
+          end
+        end
+      end
     end
   end
 end
