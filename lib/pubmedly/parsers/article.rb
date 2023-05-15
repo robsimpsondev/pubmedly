@@ -17,7 +17,8 @@ module Pubmedly
       end
 
       def publication_date
-        Date.parse(@xml.xpath(".//PubDate").text)
+        date_str = @xml.xpath(".//PubDate").text
+        date_str.empty? ? "" : Date.parse(date_str)
       end
 
       def abstract

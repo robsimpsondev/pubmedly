@@ -1,0 +1,604 @@
+<PubmedArticle>
+  <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM" IndexingMethod="Automated">
+    <PMID Version="1">37110449</PMID>
+    <DateRevised>
+      <Year>2023</Year>
+      <Month>05</Month>
+      <Day>01</Day>
+    </DateRevised>
+    <Article PubModel="Electronic">
+      <Journal>
+        <ISSN IssnType="Print">2076-2607</ISSN>
+        <JournalIssue CitedMedium="Print">
+          <Volume>11</Volume>
+          <Issue>4</Issue>
+          <PubDate>
+            <Year>2023</Year>
+            <Month>Apr</Month>
+            <Day>14</Day>
+          </PubDate>
+        </JournalIssue>
+        <Title>Microorganisms</Title>
+        <ISOAbbreviation>Microorganisms</ISOAbbreviation>
+      </Journal>
+      <ArticleTitle>Chemical Constituents, Antioxidant Potential, and Antimicrobial Efficacy of <i>Pimpinella anisum</i> Extracts against Multidrug-Resistant Bacteria.</ArticleTitle>
+      <ELocationID EIdType="pii" ValidYN="Y">1024</ELocationID>
+      <ELocationID EIdType="doi" ValidYN="Y">10.3390/microorganisms11041024</ELocationID>
+      <Abstract>
+        <AbstractText>Aniseeds (<i>Pimpinella anisum</i>) have gained increasing attention for their nutritional and health benefits. Aniseed extracts are known to contain a range of compounds, including flavonoids, terpenes, and essential oils. These compounds have antimicrobial properties, meaning they can help inhibit the growth of nasty bacteria and other microbes. The purpose of this study was to determine if aniseed extracts have potential antioxidant, phytochemical, and antimicrobial properties against multidrug-resistant (MDR) bacteria. A disc diffusion test was conducted in vitro to test the aniseed methanolic extract's antibacterial activity. The MIC, MBC, and inhibition zone diameters measure the minimum inhibitory concentration, minimum bactericidal concentration, and size of the zone developed when the extract is placed on a bacterial culture, respectively. HPLC and GC/MS are analytical techniques used for identifying the phenolics and chemical constituents in the extract. DPPH, ABTS, and iron-reducing power assays were performed to evaluate the total antioxidant capacity of the extract. Using HPLC, oxygenated monoterpenes represented the majority of the aniseed content, mainly estragole, <i>cis</i>-anethole, and <i>trans</i>-anethole at 4422.39, 3150.11, and 2312.11 (g/g), respectively. All of the examined bacteria are very sensitive to aniseed's antibacterial effects. It is thought that aniseed's antibacterial activity could be attributed to the presence of phenolic compounds which include catechins, methyl gallates, caffeic acid, and syringic acids. According to the GC analysis, several flavonoids were detected, including catechin, isochiapin, and <i>trans</i>-ferulic acid, as well as quercitin rhamnose, kaempferol-<i>O</i>-rutinoside, gibberellic acid, and hexadecadienoic acid. Upon quantification of the most abundant estragole, we found that estragole recovery was sufficient for proving its antimicrobial activity against MDR bacteria. Utilizing three methods, the extract demonstrated strong antioxidant activity. Aniseed extract clearly inhibited MDR bacterial isolates, indicating its potential use as an anti-virulence strategy. It is assumed that polyphenolic acids and flavonoids are responsible for this activity. <i>Trans</i>-anethole and estragole were aniseed chemotypes. Aniseed extracts showed higher antioxidant activity than vitamin C. Future investigations into the compatibility and synergism of aniseed phenolic compounds with commercial antibacterial treatments may also show them to be promising options.</AbstractText>
+      </Abstract>
+      <AuthorList CompleteYN="Y">
+        <Author ValidYN="Y">
+          <LastName>AlBalawi</LastName>
+          <ForeName>Aisha Nawaf</ForeName>
+          <Initials>AN</Initials>
+          <Identifier Source="ORCID">0000-0002-5852-6713</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Biology Department, University College of Haqel, University of Tabuk, Tabuk 71491, Saudi Arabia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Elmetwalli</LastName>
+          <ForeName>Alaa</ForeName>
+          <Initials>A</Initials>
+          <Identifier Source="ORCID">0000-0001-5372-4297</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Department of Clinical Trial Research Unit and Drug Discovery, Egyptian Liver Research Institute and Hospital (ELRIAH), Mansoura 35818, Egypt.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Baraka</LastName>
+          <ForeName>Dina M</ForeName>
+          <Initials>DM</Initials>
+          <AffiliationInfo>
+            <Affiliation>Botany and Microbiology Department, Faculty of Science, Benha University, Benha 33516, Egypt.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Alnagar</LastName>
+          <ForeName>Hadeer A</ForeName>
+          <Initials>HA</Initials>
+          <AffiliationInfo>
+            <Affiliation>Botany and Microbiology Department, Faculty of Science, Benha University, Benha 33516, Egypt.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Alamri</LastName>
+          <ForeName>Eman Saad</ForeName>
+          <Initials>ES</Initials>
+          <Identifier Source="ORCID">0000-0001-5113-0495</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Nutrition and Food Science Department, University of Tabuk, Tabuk 71491, Saudi Arabia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Hassan</LastName>
+          <ForeName>Mervat G</ForeName>
+          <Initials>MG</Initials>
+          <Identifier Source="ORCID">0000-0002-5481-921X</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Botany and Microbiology Department, Faculty of Science, Benha University, Benha 33516, Egypt.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+      </AuthorList>
+      <Language>eng</Language>
+      <PublicationTypeList>
+        <PublicationType UI="D016428">Journal Article</PublicationType>
+      </PublicationTypeList>
+      <ArticleDate DateType="Electronic">
+        <Year>2023</Year>
+        <Month>04</Month>
+        <Day>14</Day>
+      </ArticleDate>
+    </Article>
+    <MedlineJournalInfo>
+      <Country>Switzerland</Country>
+      <MedlineTA>Microorganisms</MedlineTA>
+      <NlmUniqueID>101625893</NlmUniqueID>
+      <ISSNLinking>2076-2607</ISSNLinking>
+    </MedlineJournalInfo>
+    <KeywordList Owner="NOTNLM">
+      <Keyword MajorTopicYN="N">GC&#x2013;MS</Keyword>
+      <Keyword MajorTopicYN="N">MDR bacteria</Keyword>
+      <Keyword MajorTopicYN="N">Pimpinella anisum</Keyword>
+      <Keyword MajorTopicYN="N">antioxidant</Keyword>
+      <Keyword MajorTopicYN="N">bioactive compound</Keyword>
+      <Keyword MajorTopicYN="N">estragole</Keyword>
+      <Keyword MajorTopicYN="N">phenolics</Keyword>
+      <Keyword MajorTopicYN="N">trans-anethole</Keyword>
+    </KeywordList>
+    <CoiStatement>The authors affirm that no financial or commercial relationships that may be viewed as having a conflict of interest existed throughout the study&#x2019;s execution.</CoiStatement>
+  </MedlineCitation>
+  <PubmedData>
+    <History>
+      <PubMedPubDate PubStatus="received">
+        <Year>2023</Year>
+        <Month>3</Month>
+        <Day>10</Day>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="revised">
+        <Year>2023</Year>
+        <Month>4</Month>
+        <Day>5</Day>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="accepted">
+        <Year>2023</Year>
+        <Month>4</Month>
+        <Day>10</Day>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="medline">
+        <Year>2023</Year>
+        <Month>4</Month>
+        <Day>28</Day>
+        <Hour>6</Hour>
+        <Minute>42</Minute>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="pubmed">
+        <Year>2023</Year>
+        <Month>4</Month>
+        <Day>28</Day>
+        <Hour>6</Hour>
+        <Minute>41</Minute>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="entrez">
+        <Year>2023</Year>
+        <Month>4</Month>
+        <Day>28</Day>
+        <Hour>1</Hour>
+        <Minute>40</Minute>
+      </PubMedPubDate>
+    </History>
+    <PublicationStatus>epublish</PublicationStatus>
+    <ArticleIdList>
+      <ArticleId IdType="pubmed">37110449</ArticleId>
+      <ArticleId IdType="pmc">PMC10144661</ArticleId>
+      <ArticleId IdType="doi">10.3390/microorganisms11041024</ArticleId>
+      <ArticleId IdType="pii">microorganisms11041024</ArticleId>
+    </ArticleIdList>
+    <ReferenceList>
+      <Reference>
+        <Citation>Nwobodo D.C., Ugwu M.C., Anie C.O., Al-Ouqaili M.T.S., Ikem J.C., Chigozie U.V., Saki M. Antibiotic resistance: The challenges and some emerging strategies for tackling a global menace. J. Clin. Lab. Anal. 2022;36:e24655. doi: 10.1002/jcla.24655.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/jcla.24655</ArticleId>
+          <ArticleId IdType="pmc">PMC9459344</ArticleId>
+          <ArticleId IdType="pubmed">35949048</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lamut A., Peterlin Ma&#x161;i&#x10D; L., Kikelj D., Toma&#x161;i&#x10D; T. Efflux pump inhibitors of clinically relevant multidrug resistant bacteria. Med. Res. Rev. 2019;39:2460&#x2013;2504. doi: 10.1002/med.21591.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/med.21591</ArticleId>
+          <ArticleId IdType="pubmed">31004360</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sameiyan E., Hayes A.W., Karimi G. The effect of medicinal plants on multiple drug resistance through autophagy: A review of in vitro studies. Eur. J. Pharmacol. 2019;852:244&#x2013;253. doi: 10.1016/j.ejphar.2019.04.001.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.ejphar.2019.04.001</ArticleId>
+          <ArticleId IdType="pubmed">30965056</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Moghtaderi M., Mirzaie A., Zabet N., Moammeri A., Mansoori-Kermani A., Akbarzadeh I., Yeganeh F.E., Chitgarzadeh A., Kashtali A.B., Ren Q. Enhanced antibacterial activity of Echinacea angustifolia extract against multidrug-resistant Klebsiella pneumoniae through niosome encapsulation. Nanomaterials. 2021;11:1573. doi: 10.3390/nano11061573.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/nano11061573</ArticleId>
+          <ArticleId IdType="pmc">PMC8232788</ArticleId>
+          <ArticleId IdType="pubmed">34203811</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Abass S., Parveen R., Irfan M., Jan B., Husain S.A., Ahmad S. Synergy Based Extracts of Medicinal Plants: Future Antimicrobials to Com-bat Multidrug Resistance. Curr. Pharm. Biotechnol. 2022;23:1527&#x2013;1540.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pubmed">35081888</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>S&#xFC;ntar I. Importance of ethnopharmacological studies in drug discovery: Role of medicinal plants. Phytochem. Rev. 2020;19:1199&#x2013;1209. doi: 10.1007/s11101-019-09629-9.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11101-019-09629-9</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Akhtar N., Mirza B. Phytochemical analysis and comprehensive evaluation of antimicrobial and antioxidant properties of 61 medicinal plant species. Arab. J. Chem. 2018;11:1223&#x2013;1235. doi: 10.1016/j.arabjc.2015.01.013.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.arabjc.2015.01.013</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Mohr K.I. History of antibiotics research. How Overcome Antibiot Cris. 2016:237&#x2013;272.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pubmed">27738915</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Mukunda A., Pynadath M.K., Kadar N., Mohan A. Cytotoxic effect of anise seed (Pimpinella anisum) extract on KB cell line-a comparative study with CISPLATIN. Oral Maxillofac. Pathol. J. 2020;11:6&#x2013;10.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Sarheed N.M., Jaffat H.S. Protective effect of anise extract loaded by chitosan nanoparticles in mice treated with cisplatin. AIP Conf. Proc. 2022;2450:20026.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Sakr A.A.E., Taha K.M., Abozid M.M., El-saed H.E.Z. Comparative study between anise seeds and mint leaves (chemical composition, phenolic compounds and flavonoids) Menoufia J. Agric. Biotechnol. 2019;4:53&#x2013;60. doi: 10.21608/mjab.2019.175006.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.21608/mjab.2019.175006</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Othman L., Sleiman A., Abdel-Massih R.M. Antimicrobial activity of polyphenols and alkaloids in middle eastern plants. Front. Microbiol. 2019;10:911. doi: 10.3389/fmicb.2019.00911.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3389/fmicb.2019.00911</ArticleId>
+          <ArticleId IdType="pmc">PMC6529554</ArticleId>
+          <ArticleId IdType="pubmed">31156565</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Giannenas I., Sidiropoulou E., Bonos E., Christaki E., Florou-Paneri P. Feed Additives. Elsevier; Amsterdam, The Netherlands: 2020. The history of herbs, medicinal and aromatic plants, and their extracts: Past, current situation and future perspectives; pp. 1&#x2013;18.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Sengul M., Yildiz H., Gungor N., Cetin B., Eser Z., Ercisli S. Total phenolic content, antioxidant and antimicrobial activities of some medicinal plants. Pak. J. Pharm. Sci. 2009;22:102&#x2013;106.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pubmed">19168430</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bandaranayake W.M. Quality control, screening, toxicity, and regulation of herbal drugs. Mod. Phytomedicine Turn. Med. Plants Drugs. 2006:25&#x2013;57.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Elshafie H.S., Gru&#x13E;ov&#xE1; D., Baranov&#xE1; B., Caputo L., De Martino L., Sedl&#xE1;k V., Camele I., De Feo V. Antimicrobial activity and chemical composition of essential oil extracted from Solidago canadensis L. growing wild in Slovakia. Molecules. 2019;24:1206. doi: 10.3390/molecules24071206.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/molecules24071206</ArticleId>
+          <ArticleId IdType="pmc">PMC6479883</ArticleId>
+          <ArticleId IdType="pubmed">30934783</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sen A., Batra A. Evaluation of antimicrobial activity of different solvent extracts of medicinal plant: Melia azedarach L. Int. J. Curr. Pharm. Res. 2012;4:67&#x2013;73.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Hosseinzadeh S., Jafarikukhdan A., Hosseini A., Armand R. The application of medicinal plants in traditional and modern medicine: A review of Thymus vulgaris. Int. J. Clin. Med. 2015;6:635. doi: 10.4236/ijcm.2015.69084.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4236/ijcm.2015.69084</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Saad B., Azaizeh H., Said O. Tradition and perspectives of Arab herbal medicine: A review. Evid.-Based Complement. Altern. Med. 2005;2:475&#x2013;479. doi: 10.1093/ecam/neh133.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/ecam/neh133</ArticleId>
+          <ArticleId IdType="pmc">PMC1297506</ArticleId>
+          <ArticleId IdType="pubmed">16322804</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Odey M.O., Iwara I.A., Udiba U.U., Johnson J.T., Inekwe U.V., Asenye M.E., Victor O. Preparation of plant extracts from indigenous medicinal plants. Int. J. Sci. Technol. 2012;1:688&#x2013;692.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Hudzicki J. Kirby-Bauer disk diffusion susceptibility test protocol. Am. Soc. Microbiol. 2009;15:55&#x2013;63.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Guo L., Ye L., Zhao Q., Ma Y., Yang J., Luo Y. Comparative study of MALDI-TOF MS and VITEK 2 in bacteria identification. J. Thorac. Dis. 2014;6:534.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pmc">PMC4015025</ArticleId>
+          <ArticleId IdType="pubmed">24822115</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zaidan M.R., Noor Rain A., Badrul A.R., Adlin A., Norazah A., Zakiah I. In vitro screening of five local medicinal plants for antibacterial activity using disc diffusion method. Trop. Biomed. 2005;22:165&#x2013;170.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pubmed">16883283</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Eloff J.N. A sensitive and quick microplate method to determine the minimal inhibitory concentration of plant extracts for bacteria. Planta Med. 1998;64:711&#x2013;713. doi: 10.1055/s-2006-957563.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1055/s-2006-957563</ArticleId>
+          <ArticleId IdType="pubmed">9933989</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wiegand I., Hilpert K., Hancock R.E.W. Agar and broth dilution methods to determine the minimal inhibitory concentration (MIC) of antimicrobial substances. Nat. Protoc. 2008;3:163. doi: 10.1038/nprot.2007.521.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/nprot.2007.521</ArticleId>
+          <ArticleId IdType="pubmed">18274517</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Akinjogunla O.J., Umo A.N., Alozie M.F., Oshosanya G.O., Saturday G.I. Antibacterial activity and time kill kinetics of Amlodipine, Thioridazine and Promethazine against pathogenic clinical bacterial isolates. Afr. J. Clin. Exp. Microbiol. 2021;22:397&#x2013;406. doi: 10.4314/ajcem.v22i3.11.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4314/ajcem.v22i3.11</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Michailidis D., Angelis A., Nikolaou P.E., Mitakou S., Skaltsounis A.L. Exploitation of vitis vinifera, Foeniculum vulgare, cannabis sativa and punica granatum by-product seeds as dermo-cosmetic agents. Molecules. 2021;26:731. doi: 10.3390/molecules26030731.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/molecules26030731</ArticleId>
+          <ArticleId IdType="pmc">PMC7866782</ArticleId>
+          <ArticleId IdType="pubmed">33572507</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Safaei-Ghomi J., Ebrahimabadi A.H., Djafari-Bidgoli Z., Batooli H. GC/MS analysis and in vitro antioxidant activity of essential oil and methanol extracts of Thymus caramanicus Jalas and its main constituent carvacrol. Food Chem. 2009;115:1524&#x2013;1528. doi: 10.1016/j.foodchem.2009.01.051.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.foodchem.2009.01.051</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Marinova G., Batchvarov V. Evaluation of the methods for determination of the free radical scavenging activity by DPPH. Bulg. J. Agric. Sci. 2011;17:11&#x2013;24.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Re R., Pellegrini N., Proteggente A., Pannala A., Yang M., Rice-Evans C. Antioxidant activity applying an improved ABTS radical cation decolorization assay. Free Radic. Biol. Med. 1999;26:1231&#x2013;1237. doi: 10.1016/S0891-5849(98)00315-3.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/S0891-5849(98)00315-3</ArticleId>
+          <ArticleId IdType="pubmed">10381194</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ferreira I.C.F.R., Baptista P., Vilas-Boas M., Barros L. Free-radical scavenging capacity and reducing power of wild edible mushrooms from northeast Portugal: Individual cap and stipe activity. Food Chem. 2007;100:1511&#x2013;1516. doi: 10.1016/j.foodchem.2005.11.043.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.foodchem.2005.11.043</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Class R., Class I.I., BioMerieux, Inc.  Jolyn Tenllado Regulatory Affairs Expert 595 Anglum Road Hazelwood, Missouri 63042.  [(accessed on 13 March 2020)];2020  Available online:  https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193572.pdf.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Said A., El-Gamal M.S., Abu-Elghait M., Salem S.S. Isolation, Identification and Antibiotic Susceptibility Pattern of Urinary Tract Infection Bacterial Isolates. Lett. Appl. NanoBioSci. 2021;10:2820&#x2013;2830.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Davies J. Microbes have the last word: A drastic re-evaluation of antimicrobial treatment is needed to overcome the threat of antibiotic-resistant bacteria. EMBO Rep. 2007;8:616&#x2013;621. doi: 10.1038/sj.embor.7401022.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/sj.embor.7401022</ArticleId>
+          <ArticleId IdType="pmc">PMC1905906</ArticleId>
+          <ArticleId IdType="pubmed">17603533</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Leekha S., Terrell C.L., Edson R.S. Mayo Clinic Proceedings. Elsevier; Amsterdam, The Netherlands: 2011. General principles of antimicrobial therapy; pp. 156&#x2013;167.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pmc">PMC3031442</ArticleId>
+          <ArticleId IdType="pubmed">21282489</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Mattocks C.J., Morris M.A., Matthijs G., Swinnen E., Corveleyn A., Dequeker E., M&#xFC;ller C.R., Pratt V., Wallace A. A standardized framework for the validation and verification of clinical molecular genetic tests. Eur. J. Hum. Genet. 2010;18:1276&#x2013;1288. doi: 10.1038/ejhg.2010.101.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/ejhg.2010.101</ArticleId>
+          <ArticleId IdType="pmc">PMC3002854</ArticleId>
+          <ArticleId IdType="pubmed">20664632</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Shlaes D.M., Gerding D.N., John J.F., Craig W.A., Bornstein D.L., Duncan R.A., Eckman M.R., Farrer W.E., Greene W.H., Lorian V., et al. Society for Healthcare Epidemiology of America and Infectious Diseases Society of America Joint Committee on the Prevention of Antimicrobial Resistance guidelines for the prevention of antimicrobial resistance in hospitals. Infect. Control. Hosp. Epidemiol. 1997;18:275&#x2013;291. doi: 10.2307/30141215.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2307/30141215</ArticleId>
+          <ArticleId IdType="pubmed">9131374</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Machowska A., St&#xE5;lsby Lundborg C. Drivers of irrational use of antibiotics in Europe. Int. J. Environ. Res. Public Health. 2019;16:27. doi: 10.3390/ijerph16010027.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/ijerph16010027</ArticleId>
+          <ArticleId IdType="pmc">PMC6338985</ArticleId>
+          <ArticleId IdType="pubmed">30583571</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Laxminarayan R., Duse A., Wattal C., Zaidi A.K.M., Wertheim H.F.L., Sumpradit N., Vlieghe E., Hara G.L., Gould I.M., Goossens H., et al. Antibiotic resistance&#x2014;The need for global solutions. Lancet Infect. Dis. 2013;13:1057&#x2013;1098. doi: 10.1016/S1473-3099(13)70318-9.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/S1473-3099(13)70318-9</ArticleId>
+          <ArticleId IdType="pubmed">24252483</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kova&#x10D; J., Gavari&#x107; N., Bucar F., Smole Mo&#x17E;ina S. Antimicrobial and resistance modulatory activity of Alpinia katsumadai seed phenolic extract, essential oil and post-distillation extract. Food Technol. Biotechnol. 2014;52:248&#x2013;254.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Sharafan M., Jafernik K., Ekiert H., Kubica P., Kocjan R., Blicharska E., Szopa A. Illicium verum (Star Anise) and Trans-Anethole as valuable raw materials for medicinal and cosmetic applications. Molecules. 2022;27:650. doi: 10.3390/molecules27030650.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/molecules27030650</ArticleId>
+          <ArticleId IdType="pmc">PMC8839413</ArticleId>
+          <ArticleId IdType="pubmed">35163914</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Huang Y., Zhao J., Zhou L., Wang J., Gong Y., Chen X., Guo Z., Wang Q., Jiang W. Antifungal activity of the essential oil of Illicium verum fruit and its main component trans-anethole. Molecules. 2010;15:7558&#x2013;7569. doi: 10.3390/molecules15117558.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/molecules15117558</ArticleId>
+          <ArticleId IdType="pmc">PMC6259245</ArticleId>
+          <ArticleId IdType="pubmed">21030909</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Salem M.A., El-Shiekh R.A., Hashem R.A., Hassan M. In vivo antibacterial activity of star anise (Illicium verum Hook.) Extract Using Murine MRSA skin infection model in relation to its metabolite profile. Infect. Drug. Resist. 2021;14:33. doi: 10.2147/IDR.S285940.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2147/IDR.S285940</ArticleId>
+          <ArticleId IdType="pmc">PMC7797340</ArticleId>
+          <ArticleId IdType="pubmed">33442274</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bin Muhsinah A., Maqbul M.S., Mahnashi M.H., Jalal M.M., Altayar M.A., Saeedi N.H., Alshehri O.M., Shaikh I.A., Khan A.A.L., Iqubal S.S., et al. Antibacterial activity of Illicium verum essential oil against MRSA clinical isolates and determination of its phyto-chemical components. J. King Saud Univ. 2022;34:101800. doi: 10.1016/j.jksus.2021.101800.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jksus.2021.101800</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yang J.-F., Yang C.-H., Chang H.-W., Wang S.-M., Hsieh M.-C., Chuang L.-Y. Chemical composition and antibacterial activities of Illicium verum against antibiotic-resistant pathogens. J. Med. Food. 2010;13:1254&#x2013;1262. doi: 10.1089/jmf.2010.1086.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1089/jmf.2010.1086</ArticleId>
+          <ArticleId IdType="pubmed">20828316</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yu C., Zhang J., Wang T. Star anise essential oil: Chemical compounds, antifungal and antioxidant activities: A review. J. Essent. Oil Res. 2021;33:1&#x2013;22. doi: 10.1080/10412905.2020.1813213.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/10412905.2020.1813213</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bohlmann J., Keeling C.I. Terpenoid biomaterials. Plant. J. 2008;54:656&#x2013;669. doi: 10.1111/j.1365-313X.2008.03449.x.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/j.1365-313X.2008.03449.x</ArticleId>
+          <ArticleId IdType="pubmed">18476870</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Soto S.M. Role of efflux pumps in the antibiotic resistance of bacteria embedded in a biofilm. Virulence. 2013;4:223&#x2013;229. doi: 10.4161/viru.23724.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4161/viru.23724</ArticleId>
+          <ArticleId IdType="pmc">PMC3711980</ArticleId>
+          <ArticleId IdType="pubmed">23380871</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Uddin T.M., Chakraborty A.J., Khusro A., Zidan B.M.R.M., Mitra S., Emran T.B., Dhama K., Ripon K.H., Gajd&#xE1;cs M., Sahibzada M.U.K., et al. Antibiotic resistance in microbes: History, mechanisms, therapeutic strategies and future prospects. J. Infect. Public Health. 2021;14:1750&#x2013;1766. doi: 10.1016/j.jiph.2021.10.020.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jiph.2021.10.020</ArticleId>
+          <ArticleId IdType="pubmed">34756812</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Silva-Beltr&#xE1;n N.P., Ruiz-Cruz S., Cira-Ch&#xE1;vez L.A., Estrada-Alvarado M.I., Ornelas-Paz J.D.J., L&#xF3;pez-Mata M.A., Del-Toro-S&#xE1;nchez D.L., Ayala-Zavala J.F., M&#xE1;rquez-R&#xED;os E. Total phenolic, flavonoid, tomatine, and tomatidine contents and antioxidant and antimicrobial activities of extracts of tomato plant. Int. J. Anal. Chem. 2015;2015:284071. doi: 10.1155/2015/284071.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1155/2015/284071</ArticleId>
+          <ArticleId IdType="pmc">PMC4644540</ArticleId>
+          <ArticleId IdType="pubmed">26609308</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Roy S., Lingampeta P. Solid wastes of fruits peels as source of low cost broad spectrum natural antimicrobial compounds-furanone, furfural and benezenetriol. Int. J. Res. Eng. Technol. 2014;3:273&#x2013;279.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Welscher Y.M.T., van Leeuwen M.R., de Kruijff B., Dijksterhuis J., Breukink E. Polyene antibiotic that inhibits membrane transport proteins. Proc. Natl. Acad. Sci. USA. 2012;109:11156&#x2013;11159. doi: 10.1073/pnas.1203375109.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1073/pnas.1203375109</ArticleId>
+          <ArticleId IdType="pmc">PMC3396478</ArticleId>
+          <ArticleId IdType="pubmed">22733749</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Grandinetti G., Smith A.E., Reineke T.M. Membrane and nuclear permeabilization by polymeric pDNA vehicles: Efficient method for gene delivery or mechanism of cytotoxicity? Mol. Pharm. 2012;9:523&#x2013;538. doi: 10.1021/mp200368p.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1021/mp200368p</ArticleId>
+          <ArticleId IdType="pmc">PMC3524998</ArticleId>
+          <ArticleId IdType="pubmed">22175236</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>D&#xED;az-Maroto M.C., D&#xED;az-Maroto Hidalgo I.J., S&#xE1;nchez-Palomo E., P&#xE9;rez-Coello M.S. Volatile components and key odorants of Fennel (Foeniculum vulgare Mill.) and Thyme (Thymus vulgaris L.) oil extracts obtained by simultaneous distillation&#x2212; extraction and supercritical fluid extraction. J. Agric. Food Chem. 2005;53:5385&#x2013;5389. doi: 10.1021/jf050340+.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1021/jf050340+</ArticleId>
+          <ArticleId IdType="pubmed">15969523</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Anwar F., Ali M., Hussain A.I., Shahid M. Antioxidant and antimicrobial activities of essential oil and extracts of fennel (Foeniculum vulgare Mill.) seeds from Pakistan. Flavour. Fragr. J. 2009;24:170&#x2013;176. doi: 10.1002/ffj.1929.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/ffj.1929</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Thuesombat P., Hannongbua S., Akasit S., Chadchawan S. Effect of silver nanoparticles on rice (Oryza sativa L. cv. KDML 105) seed germination and seedling growth. Ecotoxicol. Environ. Saf. 2014;104:302&#x2013;309. doi: 10.1016/j.ecoenv.2014.03.022.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.ecoenv.2014.03.022</ArticleId>
+          <ArticleId IdType="pubmed">24726943</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ekambaram S.P., Perumal S.S., Balakrishnan A., Marappan N., Gajendran S.S., Viswanathan V. Antibacterial synergy between rosmarinic acid and antibiotics against methicillin-resistant Staphylococcus aureus. J. Intercult. Ethnopharmacol. 2016;5:358. doi: 10.5455/jice.20160906035020.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.5455/jice.20160906035020</ArticleId>
+          <ArticleId IdType="pmc">PMC5061478</ArticleId>
+          <ArticleId IdType="pubmed">27757265</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kumar S., Pandey A.K. Chemistry and biological activities of flavonoids: An overview. Sci. World J. 2013;2013:162750. doi: 10.1155/2013/162750.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1155/2013/162750</ArticleId>
+          <ArticleId IdType="pmc">PMC3891543</ArticleId>
+          <ArticleId IdType="pubmed">24470791</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sangeetha K.S.S., Umamaheswari S., Reddy C.U.M., Kalkura S.N. Flavonoids: Therapeutic potential of natural pharmacological agents. Int. J. Pharm. Sci. Res. 2016;7:3924.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Nenaah G. Antimicrobial activity of Calotropis procera Ait. (Asclepiadaceae) and isolation of four flavonoid glycosides as the active constituents. World J. Microbiol. Biotechnol. 2013;29:1255&#x2013;1262. doi: 10.1007/s11274-013-1288-2.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11274-013-1288-2</ArticleId>
+          <ArticleId IdType="pubmed">23417281</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kopel J., McDonald J., Hamood A. An Assessment of the In Vitro Models and Clinical Trials Related to the Antimicrobial Activities of Phytochemicals. Antibiotics. 2022;11:1838. doi: 10.3390/antibiotics11121838.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/antibiotics11121838</ArticleId>
+          <ArticleId IdType="pmc">PMC9774156</ArticleId>
+          <ArticleId IdType="pubmed">36551494</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pinto T., Aires A., Cosme F., Bacelar E., Morais M., Oliveira I., Ferreira-Cardoso J., Anjos R., Vilela A., Gon&#xE7;alves B. Bioactive (Poly) phenols, volatile compounds from vegetables, medicinal and aromatic plants. Foods. 2021;10:106. doi: 10.3390/foods10010106.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/foods10010106</ArticleId>
+          <ArticleId IdType="pmc">PMC7825428</ArticleId>
+          <ArticleId IdType="pubmed">33419090</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Rather M.A., Dar B.A., Sofi S.N., Bhat B.A., Qurishi M.A. Foeniculum vulgare: A comprehensive review of its traditional use, phytochemistry, pharmacology, and safety. Arab. J. Chem. 2016;9:S1574&#x2013;S1583. doi: 10.1016/j.arabjc.2012.04.011.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.arabjc.2012.04.011</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Marchese A., Barbieri R., Coppo E., Orhan I.E., Daglia M., Nabavi S.M., Izadi M., Abdollahi M., Ajami M. Antimicrobial activity of eugenol and essential oils containing eugenol: A mechanistic viewpoint. Crit. Rev. Microbiol. 2017;43:668&#x2013;689. doi: 10.1080/1040841X.2017.1295225.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/1040841X.2017.1295225</ArticleId>
+          <ArticleId IdType="pubmed">28346030</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kalleli F., Rebey I.B., Wannes W.A., Boughalleb F., Hammami M., Tounsi M.S., M&#x2019;Hamdi M. Chemical composition and antioxidant potential of essential oil and methanol extract from Tunisian and French fennel (Foeniculum vulgare Mill.) seeds. J. Food Biochem. 2019;43:e12935. doi: 10.1111/jfbc.12935.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/jfbc.12935</ArticleId>
+          <ArticleId IdType="pubmed">31368565</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Rebey I.B., Bourgou S., Wannes W.A., Selami I.H., Tounsi M.S., Marzouk B., Fauconnier M.-L., Ksouri R. Comparative assessment of phytochemical profiles and antioxidant properties of Tunisian and Egyptian anise (Pimpinella anisum L.) seeds. Plant Biosyst.-Int. J. Deal. All Asp. Plant Biol. 2018;152:971&#x2013;978.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Nas&#x131;r A., Yabalak E. Investigation of antioxidant, antibacterial, antiviral, chemical composition, and traditional medicinal properties of the extracts and essential oils of the Pimpinella species from a broad perspective: A review. J. Essent. Oil Res. 2021;33:411&#x2013;426. doi: 10.1080/10412905.2021.1928559.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/10412905.2021.1928559</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Rani V., Deep G., Singh R.K., Palle K., Yadav U.C.S. Oxidative stress and metabolic disorders: Pathogenesis and therapeutic strategies. Life Sci. 2016;148:183&#x2013;193. doi: 10.1016/j.lfs.2016.02.002.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.lfs.2016.02.002</ArticleId>
+          <ArticleId IdType="pubmed">26851532</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>El-Kersh D.M., Mostafa N.M., Fayez S., Al-Warhi T., Abourehab M.A.S., Eldehna W.M., Salem M.A. GC-MS metabolites profiling of anethole-rich oils by different extraction techniques: Antioxidant, cytotoxicity and in-silico enzymes inhibitory insights. J. Enzym. Inhib. Med. Chem. 2022;37:1974&#x2013;1986. doi: 10.1080/14756366.2022.2097445.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/14756366.2022.2097445</ArticleId>
+          <ArticleId IdType="pmc">PMC9302011</ArticleId>
+          <ArticleId IdType="pubmed">35850583</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kimondo J.W. An Evaluation of Antioxidant and Anti-Inflammatory Effects of Natural Foods and Medicinal Plants of the Ilkisonko Maasai Community, Kenya. 2020.  [(accessed on 30 June 2020)].  Available online:  http://erepository.uonbi.ac.ke/handle/11295/154650.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Danilenko V.N., Devyatkin A.V., Marsova M.V., Shibilova M.U., Ilyasov R.A., Shmyrev V.I. Common inflammatory mechanisms in COVID-19 and Parkinson&#x2019;s diseases: The role of microbiome, pharmabiotics and postbiotics in their prevention. J. Inflamm. Res. 2021;14:6349&#x2013;6381. doi: 10.2147/JIR.S333887.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2147/JIR.S333887</ArticleId>
+          <ArticleId IdType="pmc">PMC8643201</ArticleId>
+          <ArticleId IdType="pubmed">34876830</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </PubmedData>
+</PubmedArticle>

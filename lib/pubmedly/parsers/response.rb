@@ -11,15 +11,15 @@ module Pubmedly
       end
 
       def count
-        @xml.xpath(".//Count").text.to_i
+        @xml.xpath(".//Count")&.text.to_i
       end
 
       def ids
-        @xml.xpath(".//Id").map(&:text).map(&:to_i).to_a
+        @xml.xpath(".//Id")&.map(&:text)&.map(&:to_i)&.to_a
       end
 
       def articles
-        @xml.xpath(".//Article").map do |article_xml|
+        @xml.xpath(".//PubmedArticle").map do |article_xml|
           Pubmedly::Parsers::Article.new(article_xml)
         end
       end
