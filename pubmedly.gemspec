@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Rob Simpson"]
   spec.email = ["robsimpsondev@gmail.com"]
 
-  spec.summary = "Ruby client for the Pubmed API"
+  spec.summary = "Ruby client for the NCBI eutils Pubmed API"
   spec.description = "Search the NIH database for medical research."
   spec.homepage = "https://github.com/robsimpsondev?tab=repositories&q=&type=public&language=&sort="
   spec.license = "MIT"
@@ -31,7 +31,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
   spec.add_dependency "nokogiri"
 
   spec.add_development_dependency "rake"
