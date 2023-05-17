@@ -30,6 +30,15 @@ module Pubmedly
         it "returns empty string if no publication date is found" do
           expect(random_xml.publication_date).to eq ""
         end
+
+        context "if the publication date is a year only" do
+          let(:article) { Article.new(
+            Nokogiri::XML(File.read("#{FIXTURE_DIR}/pubmed_article_pubdate_year_only.xml"))) }
+
+          it "returns a Date on 1st January that year" do
+            expect(article.publication_date).to eq(Date.strptime("2023", "%Y"))
+          end
+        end
       end
 
       describe "#abstract" do
@@ -39,6 +48,26 @@ module Pubmedly
 
         it "returns empty string if no abstract is found" do
           expect(random_xml.abstract).to eq ""
+        end
+      end
+
+      describe "#authors" do
+        it "returns an array of author names" do
+          expect(article.authors).to eq ["AlBalawi, Aisha Nawaf", "Elmetwalli, Alaa", "Baraka, Dina M", "Alnagar, Hadeer A", "Alamri, Eman Saad", "Hassan, Mervat G"]
+        end
+
+        it "returns empty array if no authors are found" do
+          expect(random_xml.authors).to eq []
+        end
+      end
+
+      describe "#pmid" do
+        it "returns the PMID of the article" do
+          expect(article.pmid).to eq 37110449
+        end
+
+        it "returns nil if no PMID is found" do
+          expect(random_xml.pmid).to eq nil
         end
       end
     end

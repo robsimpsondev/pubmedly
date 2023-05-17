@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&term=cancer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 17 May 2023 08:49:44 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 8B619B4C781B522D_BB89SID
+      Ncbi-Phid:
+      - D0BD1EF10BD2F0D5000039E960F132BD.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '9'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=8B619B4C781B522D_BB89SID; domain=.nih.gov; path=/; expires=Fri, 17
+        May 2024 08:49:44 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>4858935</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37194105</Id>
+        <Id>37194085</Id>
+        <Id>37194082</Id>
+        <Id>37194075</Id>
+        <Id>37194072</Id>
+        <Id>37194067</Id>
+        <Id>37194061</Id>
+        <Id>37194057</Id>
+        <Id>37194056</Id>
+        <Id>37194054</Id>
+        <Id>37194050</Id>
+        <Id>37194045</Id>
+        <Id>37194042</Id>
+        <Id>37194038</Id>
+        <Id>37194033</Id>
+        <Id>37194030</Id>
+        <Id>37194029</Id>
+        <Id>37194026</Id>
+        <Id>37194025</Id>
+        <Id>37194024</Id>
+        </IdList><TranslationSet><Translation>     <From>cancer</From>     <To>"cancer's"[All Fields] OR "cancerated"[All Fields] OR "canceration"[All Fields] OR "cancerization"[All Fields] OR "cancerized"[All Fields] OR "cancerous"[All Fields] OR "neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields] OR "cancers"[All Fields]</To>    </Translation></TranslationSet><QueryTranslation>"cancer s"[All Fields] OR "cancerated"[All Fields] OR "canceration"[All Fields] OR "cancerization"[All Fields] OR "cancerized"[All Fields] OR "cancerous"[All Fields] OR "neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields] OR "cancers"[All Fields]</QueryTranslation></eSearchResult>
+  recorded_at: Wed, 17 May 2023 08:49:44 GMT
+- request:
+    method: get
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=<NCBI_API_KEY>&db=pubmed&term=cancer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 17 May 2023 08:49:45 GMT
+      Server:
+      - Finatra
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Ncbi-Sid:
+      - 53C4B0550761B11D_D6A2SID
+      Ncbi-Phid:
+      - 322C36E9C9D0D90500005DC0D1620E28.1.1.m_1
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Cache-Control:
+      - private
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      Set-Cookie:
+      - ncbi_sid=53C4B0550761B11D_D6A2SID; domain=.nih.gov; path=/; expires=Fri, 17
+        May 2024 08:49:45 GMT
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+        <eSearchResult><Count>4858935</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+        <Id>37194105</Id>
+        <Id>37194085</Id>
+        <Id>37194082</Id>
+        <Id>37194075</Id>
+        <Id>37194072</Id>
+        <Id>37194067</Id>
+        <Id>37194061</Id>
+        <Id>37194057</Id>
+        <Id>37194056</Id>
+        <Id>37194054</Id>
+        <Id>37194050</Id>
+        <Id>37194045</Id>
+        <Id>37194042</Id>
+        <Id>37194038</Id>
+        <Id>37194033</Id>
+        <Id>37194030</Id>
+        <Id>37194029</Id>
+        <Id>37194026</Id>
+        <Id>37194025</Id>
+        <Id>37194024</Id>
+        </IdList><TranslationSet><Translation>     <From>cancer</From>     <To>"cancer's"[All Fields] OR "cancerated"[All Fields] OR "canceration"[All Fields] OR "cancerization"[All Fields] OR "cancerized"[All Fields] OR "cancerous"[All Fields] OR "neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields] OR "cancers"[All Fields]</To>    </Translation></TranslationSet><QueryTranslation>"cancer s"[All Fields] OR "cancerated"[All Fields] OR "canceration"[All Fields] OR "cancerization"[All Fields] OR "cancerized"[All Fields] OR "cancerous"[All Fields] OR "neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields] OR "cancers"[All Fields]</QueryTranslation></eSearchResult>
+  recorded_at: Wed, 17 May 2023 08:49:45 GMT
+recorded_with: VCR 6.1.0

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "pubmedly"
+require_relative "support/array_access"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

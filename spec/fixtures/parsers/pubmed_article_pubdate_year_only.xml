@@ -1,0 +1,663 @@
+<PubmedArticle>
+  <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated">
+    <PMID Version="1">37155673</PMID>
+    <DateCompleted>
+      <Year>2023</Year>
+      <Month>05</Month>
+      <Day>10</Day>
+    </DateCompleted>
+    <DateRevised>
+      <Year>2023</Year>
+      <Month>05</Month>
+      <Day>12</Day>
+    </DateRevised>
+    <Article PubModel="Electronic-eCollection">
+      <Journal>
+        <ISSN IssnType="Electronic">1932-6203</ISSN>
+        <JournalIssue CitedMedium="Internet">
+          <Volume>18</Volume>
+          <Issue>5</Issue>
+          <PubDate>
+            <Year>2023</Year>
+          </PubDate>
+        </JournalIssue>
+        <Title>PloS one</Title>
+        <ISOAbbreviation>PLoS One</ISOAbbreviation>
+      </Journal>
+      <ArticleTitle>Deleterious impact of COVID-19 pandemic: Male fertility was not out of the bag.</ArticleTitle>
+      <Pagination>
+        <StartPage>e0284489</StartPage>
+        <MedlinePgn>e0284489</MedlinePgn>
+      </Pagination>
+      <ELocationID EIdType="pii" ValidYN="Y">e0284489</ELocationID>
+      <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0284489</ELocationID>
+      <Abstract>
+        <AbstractText Label="BACKGROUND">The emergence and the spread of coronavirus disease (COVID-19) induced by the SARS-CoV-2 virus has multiple consequences in all countries around the world. Male germ cells of infertile patients which are shown to be vulnerable to many environmental conditions, could be particularly vulnerable to such an exceptional pandemic situation. We aimed through the current study to investigate the potential variations in sperm quality of infertile patients during the COVID-19 pandemic in Tunisia.</AbstractText>
+        <AbstractText Label="METHODS">This was a cohort study including 90 infertile patients addressed to Laboratory of Cytogenetics and Reproductive Biology of Monastir Department of Maternity and Neonatology in Monastir, during the two first COVID-19 waves in Tunisia and who already have a spermogram before the pandemic period.</AbstractText>
+        <AbstractText Label="RESULTS">We have pointed out a significant decrease in both total and progressive sperm motility during COVID-19 pandemic (p&lt;0.0001 and p = 0.001 respectively). The percentage of morphologically abnormal spermatozoa increased from 90.99&#xB1;7.38 to 93.67&#xB1;4.55% during the pandemic (p&lt; 0.001). The remaining sperm parameters were similar between the two compared timepoints. Interestingly, the univariate analysis didn't show any other associated factor to the observed impairment in sperm mobility and morphology.</AbstractText>
+        <AbstractText Label="CONCLUSION">These data highlight the severe impact of the pandemic of the male reproductive health of hypofertile patients. Delaying infertility investigations and management after pandemic waves is recommended to hope a better gamete quality and hence to improve conception potential.</AbstractText>
+        <CopyrightInformation>Copyright: &#xA9; 2023 Garrouch et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</CopyrightInformation>
+      </Abstract>
+      <AuthorList CompleteYN="Y">
+        <Author ValidYN="Y">
+          <LastName>Garrouch</LastName>
+          <ForeName>Siwar</ForeName>
+          <Initials>S</Initials>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Sallem</LastName>
+          <ForeName>Amira</ForeName>
+          <Initials>A</Initials>
+          <Identifier Source="ORCID">0000-0003-4530-7279</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Histology-Embryology and Cytogenetics (LR18ES40), Faculty of Medicine of Monastir, University of Monastir, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Ben Fredj</LastName>
+          <ForeName>Manel</ForeName>
+          <Initials>M</Initials>
+          <AffiliationInfo>
+            <Affiliation>Department of Epidemiology and Preventive Medicine, Fattouma Bouguiba University Hospital, University of Monastir, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Kooli</LastName>
+          <ForeName>Rim</ForeName>
+          <Initials>R</Initials>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Bousabbeh</LastName>
+          <ForeName>Manel</ForeName>
+          <Initials>M</Initials>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Boughzala</LastName>
+          <ForeName>Ines</ForeName>
+          <Initials>I</Initials>
+          <Identifier Source="ORCID">0000-0002-3924-5801</Identifier>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Sriha</LastName>
+          <ForeName>Asma</ForeName>
+          <Initials>A</Initials>
+          <AffiliationInfo>
+            <Affiliation>Department of Epidemiology and Preventive Medicine, Fattouma Bouguiba University Hospital, University of Monastir, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Hajjaji</LastName>
+          <ForeName>Awatef</ForeName>
+          <Initials>A</Initials>
+          <AffiliationInfo>
+            <Affiliation>Department of Gynecology and Obstetrics, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Mehdi</LastName>
+          <ForeName>Meriem</ForeName>
+          <Initials>M</Initials>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Cytogenetics and Reproductive Biology, Maternity and Neonatology Center, Fattouma Bourguiba University Teaching Hospital, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+          <AffiliationInfo>
+            <Affiliation>Laboratory of Histology-Embryology and Cytogenetics (LR18ES40), Faculty of Medicine of Monastir, University of Monastir, Monastir, Tunisia.</Affiliation>
+          </AffiliationInfo>
+        </Author>
+      </AuthorList>
+      <Language>eng</Language>
+      <PublicationTypeList>
+        <PublicationType UI="D016428">Journal Article</PublicationType>
+      </PublicationTypeList>
+      <ArticleDate DateType="Electronic">
+        <Year>2023</Year>
+        <Month>05</Month>
+        <Day>08</Day>
+      </ArticleDate>
+    </Article>
+    <MedlineJournalInfo>
+      <Country>United States</Country>
+      <MedlineTA>PLoS One</MedlineTA>
+      <NlmUniqueID>101285081</NlmUniqueID>
+      <ISSNLinking>1932-6203</ISSNLinking>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+      <MeshHeading>
+        <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D011247" MajorTopicYN="N">Pregnancy</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D055101" MajorTopicYN="N">Semen Analysis</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D013076" MajorTopicYN="N">Sperm Count</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D007248" MajorTopicYN="Y">Infertility, Male</DescriptorName>
+        <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D058873" MajorTopicYN="N">Pandemics</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D013081" MajorTopicYN="N">Sperm Motility</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D012661" MajorTopicYN="N">Semen</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D015331" MajorTopicYN="N">Cohort Studies</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D000086382" MajorTopicYN="Y">COVID-19</DescriptorName>
+        <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D000086402" MajorTopicYN="N">SARS-CoV-2</DescriptorName>
+      </MeshHeading>
+      <MeshHeading>
+        <DescriptorName UI="D013094" MajorTopicYN="N">Spermatozoa</DescriptorName>
+      </MeshHeading>
+    </MeshHeadingList>
+    <CoiStatement>The authors have declared that no competing interests exist.</CoiStatement>
+  </MedlineCitation>
+  <PubmedData>
+    <History>
+      <PubMedPubDate PubStatus="received">
+        <Year>2023</Year>
+        <Month>2</Month>
+        <Day>16</Day>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="accepted">
+        <Year>2023</Year>
+        <Month>3</Month>
+        <Day>31</Day>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="medline">
+        <Year>2023</Year>
+        <Month>5</Month>
+        <Day>10</Day>
+        <Hour>6</Hour>
+        <Minute>42</Minute>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="pubmed">
+        <Year>2023</Year>
+        <Month>5</Month>
+        <Day>8</Day>
+        <Hour>18</Hour>
+        <Minute>42</Minute>
+      </PubMedPubDate>
+      <PubMedPubDate PubStatus="entrez">
+        <Year>2023</Year>
+        <Month>5</Month>
+        <Day>8</Day>
+        <Hour>14</Hour>
+        <Minute>24</Minute>
+      </PubMedPubDate>
+    </History>
+    <PublicationStatus>epublish</PublicationStatus>
+    <ArticleIdList>
+      <ArticleId IdType="pubmed">37155673</ArticleId>
+      <ArticleId IdType="pmc">PMC10166489</ArticleId>
+      <ArticleId IdType="doi">10.1371/journal.pone.0284489</ArticleId>
+      <ArticleId IdType="pii">PONE-D-23-04646</ArticleId>
+    </ArticleIdList>
+    <ReferenceList>
+      <Reference>
+        <Citation>Nguyen TT, Hulme J, Tran HD, Vo TK, Vo GV. The potential impact of COVID-19 on male reproductive health. J Endocrinol Invest. 2022; 1&#x2013;13. doi: 10.1007/s40618-022-01764-z</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s40618-022-01764-z</ArticleId>
+          <ArticleId IdType="pmc">PMC8856879</ArticleId>
+          <ArticleId IdType="pubmed">35181849</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>World Health Organization (WHO). [cited 22 Nov 2022]. Available: https://www.who.int</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Accueil&#x2014;Minist&#xE8;re de la sant&#xE9; publique. [cited 22 Nov 2022]. Available: http://www.health.gov.tn/fr/</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Hezavehei M, Shokoohian B, Nasr-Esfahani MH, Shpichka A, Timashev P, Shahverdi A, et al.. Possible Male Reproduction Complications after Coronavirus Pandemic. Cell J. 2021;23: 382&#x2013;388. doi: 10.22074/cellj.2021.7982</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.22074/cellj.2021.7982</ArticleId>
+          <ArticleId IdType="pmc">PMC8405085</ArticleId>
+          <ArticleId IdType="pubmed">34455712</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Hajizadeh Maleki B, Tartibian B. COVID-19 and male reproductive function: a prospective, longitudinal cohort study. Reproduction. 2021;161: 319&#x2013;331. doi: 10.1530/REP-20-0382</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1530/REP-20-0382</ArticleId>
+          <ArticleId IdType="pubmed">33522983</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Aitken RJ. COVID&#x2010;19 and human spermatozoa&#x2013;potential risks for infertility and sexual transmission. Andrology. 2020; 10.1111/andr.12859. doi: 10.1111/andr.12859</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/andr.12859</ArticleId>
+          <ArticleId IdType="pmc">PMC7404878</ArticleId>
+          <ArticleId IdType="pubmed">32649023</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Batiha O, Al&#x2010;Deeb T, Al&#x2010;zoubi E, Alsharu E. Impact of COVID&#x2010;19 and other viruses on reproductive health. Andrologia. 2020; e13791. doi: 10.1111/and.13791</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/and.13791</ArticleId>
+          <ArticleId IdType="pmc">PMC7435575</ArticleId>
+          <ArticleId IdType="pubmed">32790205</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Carson SA, Kallen AN. Diagnosis and Management of Infertility: A Review. JAMA. 2021;326: 65&#x2013;76. doi: 10.1001/jama.2021.4788</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1001/jama.2021.4788</ArticleId>
+          <ArticleId IdType="pmc">PMC9302705</ArticleId>
+          <ArticleId IdType="pubmed">34228062</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Jamil S, Shoaib M, Aziz W, Ather MH. Does male factor infertility impact on self-esteem and sexual relationship? Andrologia. 2020;52: e13460. doi: 10.1111/and.13460</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/and.13460</ArticleId>
+          <ArticleId IdType="pubmed">31691340</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>World Health Organization, editor. WHO laboratory manual for the examination and processing of human semen, Sixth Edition. 6th ed. Geneva; 2021.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pmc">PMC8443989</ArticleId>
+          <ArticleId IdType="pubmed">34169684</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>To KK-W, Sridhar S, Chiu KH-Y, Hung DL-L, Li X, Hung IF-N, et al.. Lessons learned 1 year after SARS-CoV-2 emergence leading to COVID-19 pandemic. Emerg Microbes Infect. 2021;10: 507&#x2013;535. doi: 10.1080/22221751.2021.1898291</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/22221751.2021.1898291</ArticleId>
+          <ArticleId IdType="pmc">PMC8006950</ArticleId>
+          <ArticleId IdType="pubmed">33666147</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pantelis C, Jayaram M, Hannan AJ, Wesselingh R, Nithianantharajah J, Wannan CM, et al.. Neurological, neuropsychiatric and neurodevelopmental complications of COVID-19. Aust N Z J Psychiatry. 2021;55: 750&#x2013;762. doi: 10.1177/0004867420961472</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1177/0004867420961472</ArticleId>
+          <ArticleId IdType="pmc">PMC8317235</ArticleId>
+          <ArticleId IdType="pubmed">32998512</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>&#xD8;stergaard L. SARS CoV-2 related microvascular damage and symptoms during and after COVID-19: Consequences of capillary transit-time changes, tissue hypoxia and inflammation. Physiol Rep. 2021;9: e14726. doi: 10.14814/phy2.14726</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.14814/phy2.14726</ArticleId>
+          <ArticleId IdType="pmc">PMC7849453</ArticleId>
+          <ArticleId IdType="pubmed">33523608</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Scappaticcio L, Pitoia F, Esposito K, Piccardo A, Trimboli P. Impact of COVID-19 on the thyroid gland: an update. Rev Endocr Metab Disord. 2021;22: 803&#x2013;815. doi: 10.1007/s11154-020-09615-z</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11154-020-09615-z</ArticleId>
+          <ArticleId IdType="pmc">PMC7688298</ArticleId>
+          <ArticleId IdType="pubmed">33241508</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ahmed S, Zimba O, Gasparyan AY. COVID-19 and the clinical course of rheumatic manifestations. Clin Rheumatol. 2021;40: 2611&#x2013;2619. doi: 10.1007/s10067-021-05691-x</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s10067-021-05691-x</ArticleId>
+          <ArticleId IdType="pmc">PMC7968918</ArticleId>
+          <ArticleId IdType="pubmed">33733315</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sen M, Honavar SG, Sharma N, Sachdev MS. COVID-19 and Eye: A Review of Ophthalmic Manifestations of COVID-19. Indian J Ophthalmol. 2021;69: 488&#x2013;509. doi: 10.4103/ijo.IJO_297_21</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4103/ijo.IJO_297_21</ArticleId>
+          <ArticleId IdType="pmc">PMC7942063</ArticleId>
+          <ArticleId IdType="pubmed">33595463</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Anifandis G, Tempest HG, Oliva R, Swanson GM, Simopoulou M, Easley CA, et al.. COVID-19 and human reproduction: A pandemic that packs a serious punch. Syst Biol Reprod Med. 2021;67: 3&#x2013;23. doi: 10.1080/19396368.2020.1855271</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/19396368.2020.1855271</ArticleId>
+          <ArticleId IdType="pubmed">33719829</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sheikhzadeh Hesari F, Hosseinzadeh SS, Asl Monadi Sardroud MA. Review of COVID-19 and male genital tract. Andrologia. 2021;53: e13914. doi: 10.1111/and.13914</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/and.13914</ArticleId>
+          <ArticleId IdType="pmc">PMC7744899</ArticleId>
+          <ArticleId IdType="pubmed">33236375</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Li G, Tang D, Song B, Wang C, Qunshan S, Xu C, et al.. Impact of the COVID-19 Pandemic on Partner Relationships and Sexual and Reproductive Health: Cross-Sectional, Online Survey Study. J Med Internet Res. 2020;22: e20961. doi: 10.2196/20961</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2196/20961</ArticleId>
+          <ArticleId IdType="pmc">PMC7419154</ArticleId>
+          <ArticleId IdType="pubmed">32716895</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Legro RS. The COVID-19 pandemic and reproductive health. Fertil Steril. 2021;115: 811&#x2013;812. doi: 10.1016/j.fertnstert.2021.02.003</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.fertnstert.2021.02.003</ArticleId>
+          <ArticleId IdType="pmc">PMC7867394</ArticleId>
+          <ArticleId IdType="pubmed">33832740</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Daoud S, Sellami A, Bouassida M, Kebaili S, Ammar Keskes L, Rebai T, et al.. Routine assessment of occupational exposure and its relation to semen quality in infertile men: a cross-sectional study. Turk J Med Sci. 2017;47: 902&#x2013;907. doi: 10.3906/sag-1605-47</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3906/sag-1605-47</ArticleId>
+          <ArticleId IdType="pubmed">28618741</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pizzol D, Foresta C, Garolla A, Demurtas J, Trott M, Bertoldo A, et al.. Pollutants and sperm quality: a systematic review and meta-analysis. Environ Sci Pollut Res Int. 2021;28: 4095&#x2013;4103. doi: 10.1007/s11356-020-11589-z</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11356-020-11589-z</ArticleId>
+          <ArticleId IdType="pubmed">33196997</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bundhun PK, Janoo G, Bhurtu A, Teeluck AR, Soogund MZS, Pursun M, et al.. Tobacco smoking and semen quality in infertile males: a systematic review and meta-analysis. BMC Public Health. 2019;19: 36. doi: 10.1186/s12889-018-6319-3</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1186/s12889-018-6319-3</ArticleId>
+          <ArticleId IdType="pmc">PMC6325781</ArticleId>
+          <ArticleId IdType="pubmed">30621647</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Leisegang K, Sengupta P, Agarwal A, Henkel R. Obesity and male infertility: Mechanisms and management. Andrologia. 2021;53: e13617. doi: 10.1111/and.13617</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/and.13617</ArticleId>
+          <ArticleId IdType="pubmed">32399992</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Chiaffarino F, Baldini MP, Scarduelli C, Bommarito F, Ambrosio S, D&#x2019;Orsi C, et al.. Prevalence and incidence of depressive and anxious symptoms in couples undergoing assisted reproductive treatment in an Italian infertility department. Eur J Obstet Gynecol Reprod Biol. 2011;158: 235&#x2013;241. doi: 10.1016/j.ejogrb.2011.04.032</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.ejogrb.2011.04.032</ArticleId>
+          <ArticleId IdType="pubmed">21641108</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Verhaak CM, Smeenk JMJ, Nahuis MJ, Kremer J a. M, Braat DDM. Long-term psychological adjustment to IVF/ICSI treatment in women. Hum Reprod. 2007;22: 305&#x2013;308. doi: 10.1093/humrep/del355</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/humrep/del355</ArticleId>
+          <ArticleId IdType="pubmed">16973721</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Garc&#xED;a-V&#xE1;zquez FA, Gadea J, Mat&#xE1;s C, Holt WV. Importance of sperm morphology during sperm transport and fertilization in mammals. Asian J Androl. 2016;18: 844&#x2013;850. doi: 10.4103/1008-682X.186880</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4103/1008-682X.186880</ArticleId>
+          <ArticleId IdType="pmc">PMC5109874</ArticleId>
+          <ArticleId IdType="pubmed">27624988</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Auger J, Serres C, Wolf JP, Jouannet P. [Sperm motility and fertilization]. Contracept Fertil Sex. 1994;22: 314&#x2013;318.</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="pubmed">8032387</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Holtmann N, Edimiris P, Andree M, Doehmen C, Baston-Buest D, Adams O, et al.. Assessment of SARS-CoV-2 in human semen&#x2014;a cohort study. Fertil Steril. 2020;114: 233&#x2013;238. doi: 10.1016/j.fertnstert.2020.05.028</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.fertnstert.2020.05.028</ArticleId>
+          <ArticleId IdType="pmc">PMC7256599</ArticleId>
+          <ArticleId IdType="pubmed">32650948</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Li D, Jin M, Bao P, Zhao W, Zhang S. Clinical Characteristics and Results of Semen Tests Among Men With Coronavirus Disease 2019. JAMA Netw Open. 2020;3: e208292. doi: 10.1001/jamanetworkopen.2020.8292</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1001/jamanetworkopen.2020.8292</ArticleId>
+          <ArticleId IdType="pmc">PMC7206502</ArticleId>
+          <ArticleId IdType="pubmed">32379329</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gacci M, Coppi M, Baldi E, Sebastianelli A, Zaccaro C, Morselli S, et al.. Semen impairment and occurrence of SARS-CoV-2 virus in semen after recovery from COVID-19. Hum Reprod. 2021;36: 1520&#x2013;1529. doi: 10.1093/humrep/deab026</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/humrep/deab026</ArticleId>
+          <ArticleId IdType="pmc">PMC7953947</ArticleId>
+          <ArticleId IdType="pubmed">33522572</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Maleki BH, Tartibian B. COVID-19 and male reproductive function: a prospective, longitudinal cohort study. Reproduction. 2021;161: 319&#x2013;331. doi: 10.1530/REP-20-0382</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1530/REP-20-0382</ArticleId>
+          <ArticleId IdType="pubmed">33522983</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Erbay G, Sanli A, Turel H, Yavuz U, Erdogan A, Karabakan M, et al.. Short-term effects of COVID-19 on semen parameters: A multicenter study of 69 cases. Andrology. 2021;9: 1060&#x2013;1065. doi: 10.1111/andr.13019</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/andr.13019</ArticleId>
+          <ArticleId IdType="pmc">PMC8251422</ArticleId>
+          <ArticleId IdType="pubmed">33851521</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Aitken RJ. COVID-19 and male infertility: An update. Andrology. 2022;10: 8&#x2013;10. doi: 10.1111/andr.13098</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/andr.13098</ArticleId>
+          <ArticleId IdType="pmc">PMC8444928</ArticleId>
+          <ArticleId IdType="pubmed">34411453</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Hoffmann M, Kleine-Weber H, Schroeder S, Kr&#xFC;ger N, Herrler T, Erichsen S, et al.. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. Cell. 2020;181: 271&#x2013;280.e8. doi: 10.1016/j.cell.2020.02.052</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.cell.2020.02.052</ArticleId>
+          <ArticleId IdType="pmc">PMC7102627</ArticleId>
+          <ArticleId IdType="pubmed">32142651</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wang Z, Xu X. scRNA-seq Profiling of Human Testes Reveals the Presence of the ACE2 Receptor, A Target for SARS-CoV-2 Infection in Spermatogonia, Leydig and Sertoli Cells. Cells. 2020;9. doi: 10.3390/cells9040920</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/cells9040920</ArticleId>
+          <ArticleId IdType="pmc">PMC7226809</ArticleId>
+          <ArticleId IdType="pubmed">32283711</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ma L, Xie W, Li D, Shi L, Ye G, Mao Y, et al.. Evaluation of sex-related hormones and semen characteristics in reproductive-aged male COVID-19 patients. J Med Virol. 2021;93: 456&#x2013;462. doi: 10.1002/jmv.26259</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/jmv.26259</ArticleId>
+          <ArticleId IdType="pmc">PMC7361404</ArticleId>
+          <ArticleId IdType="pubmed">32621617</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Abobaker A, Raba AA. Does COVID-19 affect male fertility? World J Urol. 2020; 1&#x2013;2. doi: 10.1007/s00345-020-03208-w</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00345-020-03208-w</ArticleId>
+          <ArticleId IdType="pmc">PMC7171435</ArticleId>
+          <ArticleId IdType="pubmed">32318855</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pan F, Xiao X, Guo J, Song Y, Li H, Patel DP, et al.. No evidence of severe acute respiratory syndrome-coronavirus 2 in semen of males recovering from coronavirus disease 2019. Fertil Steril. 2020;113: 1135&#x2013;1139. doi: 10.1016/j.fertnstert.2020.04.024</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.fertnstert.2020.04.024</ArticleId>
+          <ArticleId IdType="pmc">PMC7164916</ArticleId>
+          <ArticleId IdType="pubmed">32482249</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Guo L, Zhao S, Li W, Wang Y, Li L, Jiang S, et al.. Absence of SARS-CoV-2 in semen of a COVID-19 patient cohort. Andrology. 2021;9: 42&#x2013;47. doi: 10.1111/andr.12848</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/andr.12848</ArticleId>
+          <ArticleId IdType="pmc">PMC7362062</ArticleId>
+          <ArticleId IdType="pubmed">32598557</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kayaaslan B, Korukluoglu G, Hasanoglu I, Kalem AK, Eser F, Akinci E, et al.. Investigation of SARS-CoV-2 in Semen of Patients in the Acute Stage of COVID-19 Infection. Urol Int. 2020;104: 678&#x2013;683. doi: 10.1159/000510531</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1159/000510531</ArticleId>
+          <ArticleId IdType="pmc">PMC7490499</ArticleId>
+          <ArticleId IdType="pubmed">32781456</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Paoli D, Pallotti F, Colangelo S, Basilico F, Mazzuti L, Turriziani O, et al.. Study of SARS-CoV-2 in semen and urine samples of a volunteer with positive naso-pharyngeal swab. J Endocrinol Invest. 2020;43: 1819&#x2013;1822. doi: 10.1007/s40618-020-01261-1</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s40618-020-01261-1</ArticleId>
+          <ArticleId IdType="pmc">PMC7179792</ArticleId>
+          <ArticleId IdType="pubmed">32329026</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pavone C, Giammanco GM, Baiamonte D, Pinelli M, Bonura C, Montalbano M, et al.. Italian males recovering from mild COVID-19 show no evidence of SARS-CoV-2 in semen despite prolonged nasopharyngeal swab positivity. Int J Impot Res. 2020;32: 560&#x2013;562. doi: 10.1038/s41443-020-00344-0</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41443-020-00344-0</ArticleId>
+          <ArticleId IdType="pmc">PMC7427265</ArticleId>
+          <ArticleId IdType="pubmed">32796934</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Song C, Wang Y, Li W, Hu B, Chen G, Xia P, et al.. Absence of 2019 Novel Coronavirus in Semen and Testes of COVID-19 Patients. Biol Reprod. 2020. doi: 10.1093/biolre/ioaa050</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/biolre/ioaa050</ArticleId>
+          <ArticleId IdType="pmc">PMC7184456</ArticleId>
+          <ArticleId IdType="pubmed">32297920</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Burke CA, Skytte AB, Kasiri S, Howell D, Patel ZP, Trolice MP, et al.. A cohort study of men infected with COVID-19 for presence of SARS-CoV-2 virus in their semen. J Assist Reprod Genet. 2021;38: 785&#x2013;789. doi: 10.1007/s10815-021-02119-y</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s10815-021-02119-y</ArticleId>
+          <ArticleId IdType="pmc">PMC7928181</ArticleId>
+          <ArticleId IdType="pubmed">33660204</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Best JC, Kuchakulla M, Khodamoradi K, Lima TFN, Frech FS, Achua J, et al.. Evaluation of SARS-CoV-2 in Human Semen and Effect on Total Sperm Number: A Prospective Observational Study. World J Mens Health. 2021;39: 489&#x2013;495. doi: 10.5534/wjmh.200192</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.5534/wjmh.200192</ArticleId>
+          <ArticleId IdType="pmc">PMC8255403</ArticleId>
+          <ArticleId IdType="pubmed">33663031</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Delaroche L, Bertine M, Oger P, Descamps D, Damond F, Genauzeau E, et al.. Evaluation of SARS-CoV-2 in semen, seminal plasma, and spermatozoa pellet of COVID-19 patients in the acute stage of infection. PLoS One. 2021;16: e0260187. doi: 10.1371/journal.pone.0260187</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1371/journal.pone.0260187</ArticleId>
+          <ArticleId IdType="pmc">PMC8670700</ArticleId>
+          <ArticleId IdType="pubmed">34905541</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Banihani SA. Human semen quality as affected by SARS&#x2010;CoV&#x2010;2 infection: An up&#x2010;to&#x2010;date review. Andrologia. 2021; e14295. doi: 10.1111/and.14295</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/and.14295</ArticleId>
+          <ArticleId IdType="pmc">PMC8646253</ArticleId>
+          <ArticleId IdType="pubmed">34716614</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Guazzone VA, Jacobo P, Theas MS, Lustig L. Cytokines and chemokines in testicular inflammation: A brief review. Microsc Res Tech. 2009;72: 620&#x2013;628. doi: 10.1002/jemt.20704</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/jemt.20704</ArticleId>
+          <ArticleId IdType="pubmed">19263422</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Hedger MP, Meinhardt A. Cytokines and the immune-testicular axis. J Reprod Immunol. 2003;58: 1&#x2013;26. doi: 10.1016/s0165-0378(02)00060-8</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/s0165-0378(02)00060-8</ArticleId>
+          <ArticleId IdType="pubmed">12609522</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Abdel-Moneim A. COVID-19 Pandemic and Male Fertility: Clinical Manifestations and Pathogenic Mechanisms. Biochemistry (Mosc). 2021;86: 389&#x2013;396. doi: 10.1134/S0006297921040015</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1134/S0006297921040015</ArticleId>
+          <ArticleId IdType="pmc">PMC7978437</ArticleId>
+          <ArticleId IdType="pubmed">33941061</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Patel DP, Guo J, Hotaling JM. The jury is still out: COVID-19 and male reproduction. Fertility and Sterility. 2020;114: 257&#x2013;258. doi: 10.1016/j.fertnstert.2020.06.013</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.fertnstert.2020.06.013</ArticleId>
+          <ArticleId IdType="pmc">PMC7287438</ArticleId>
+          <ArticleId IdType="pubmed">32650949</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Margan R, Margan M-M, Fira-Mladinescu C, Putnoky S, Tuta-Sas I, Bagiu R, et al.. Impact of Stress and Financials on Romanian Infertile Women Accessing Assisted Reproductive Treatment. Int J Environ Res Public Health. 2022;19: 3256. doi: 10.3390/ijerph19063256</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/ijerph19063256</ArticleId>
+          <ArticleId IdType="pmc">PMC8948966</ArticleId>
+          <ArticleId IdType="pubmed">35328944</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sher L. COVID-19, anxiety, sleep disturbances and suicide. Sleep Med. 2020;70: 124. doi: 10.1016/j.sleep.2020.04.019</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.sleep.2020.04.019</ArticleId>
+          <ArticleId IdType="pmc">PMC7195057</ArticleId>
+          <ArticleId IdType="pubmed">32408252</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Li R, Yin T, Fang F, Li Q, Chen J, Wang Y, et al.. Potential risks of SARS-CoV-2 infection on reproductive health. Reprod Biomed Online. 2020;41: 89&#x2013;95. doi: 10.1016/j.rbmo.2020.04.018</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.rbmo.2020.04.018</ArticleId>
+          <ArticleId IdType="pmc">PMC7192111</ArticleId>
+          <ArticleId IdType="pubmed">32466994</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sansone A, Mollaioli D, Ciocca G, Limoncin E, Colonnello E, Vena W, et al.. Addressing male sexual and reproductive health in the wake of COVID-19 outbreak. J Endocrinol Invest. 2021;44: 223&#x2013;231. doi: 10.1007/s40618-020-01350-1</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s40618-020-01350-1</ArticleId>
+          <ArticleId IdType="pmc">PMC7355084</ArticleId>
+          <ArticleId IdType="pubmed">32661947</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Eskiocak S, Gozen AS, Yapar SB, Tavas F, Kilic AS, Eskiocak M. Glutathione and free sulphydryl content of seminal plasma in healthy medical students during and after exam stress. Human Reproduction. 2005;20: 2595&#x2013;2600. doi: 10.1093/humrep/dei062</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/humrep/dei062</ArticleId>
+          <ArticleId IdType="pubmed">15890736</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </PubmedData>
+</PubmedArticle>

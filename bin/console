@@ -3,7 +3,6 @@
 
 require "bundler/setup"
 require "pubmedly"
-
 if ENV["NCBI_API_KEY"]
   puts "Using $NCBI_API_KEY to initialize @client, @pubmed..."
   @client = Pubmedly::Client.new(ENV["NCBI_API_KEY"])
@@ -12,8 +11,15 @@ else
   puts "$NCBI_API_KEY not found. $ export NCBI_API_KEY=<your_key> to autoload @client-like objects in the console."
 end
 
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
+# utilities
+require "os"
+if OS.mac?
+  def pbcopy(input)
+   str = input.to_s
+   IO.popen('pbcopy', 'w') { |f| f << str }
+   str
+  end
+end
 
 # (If you use this, don't forget to add pry to your Gemfile!)
 require "pry"

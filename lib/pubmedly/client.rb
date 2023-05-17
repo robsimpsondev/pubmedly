@@ -39,10 +39,8 @@ module Pubmedly
       http.request(Net::HTTP::Get.new(url.request_uri))
     end
 
-    def fetch(ids, **kwargs)
+    def fetch(*ids, **kwargs)
       # https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch
-
-      ids = [ids] unless ids.is_a? Array
 
       url = URI.parse("#{BASE_URL}efetch.fcgi")
 
