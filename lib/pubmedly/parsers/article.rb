@@ -5,6 +5,7 @@ require "date"
 
 module Pubmedly
   module Parsers
+    # The Article class provides methods to access Article data.
     class Article
       attr_reader :xml
 

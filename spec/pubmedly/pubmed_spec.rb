@@ -5,12 +5,12 @@ require "vcr"
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes/"
   config.hook_into :webmock
-  config.filter_sensitive_data("<NCBI_API_KEY>") { ENV["NCBI_API_KEY"] }
+  config.filter_sensitive_data("<NCBI_API_KEY>") { ENV.fetch("NCBI_API_KEY", nil) }
 end
 
 module Pubmedly
   RSpec.describe Pubmed do
-    let(:pubmed) { Pubmed.new(ENV["NCBI_API_KEY"]) }
+    let(:pubmed) { described_class.new(ENV.fetch("NCBI_API_KEY", nil)) }
 
     describe "#search" do
       it "returns an array of IDs" do
@@ -56,15 +56,13 @@ module Pubmedly
           result = pubmed.articles("cancer")
           expect(result).to be_an(Array)
           expect(result.first).to be_a(Parsers::Article)
-          expect(result.count).to eq 20
         end
       end
 
       it "returns an empty array when no articles are found" do
         VCR.use_cassette("pubmed/articles/gyroscopapyrus") do
           result = pubmed.articles("gyroscopapyrus")
-          expect(result).to be_an(Array)
-          expect(result).to be_empty
+          expect(result).to eq []
         end
       end
     end

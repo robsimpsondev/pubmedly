@@ -4,8 +4,8 @@ require "nokogiri"
 
 module Pubmedly
   module Parsers
+    # The Response class parses XML from the NCBI eutils API's responses.
     class Response
-
       def initialize(response)
         @xml = Nokogiri::XML(response.body)
       end

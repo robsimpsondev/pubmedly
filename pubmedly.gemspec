@@ -10,11 +10,12 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Ruby client for the NCBI eutils Pubmed API"
   spec.description = "Search the NIH database for medical research."
-  spec.homepage = "https://github.com/robsimpsondev?tab=repositories&q=&type=public&language=&sort="
+  spec.homepage = "https://github.com/robsimpsondev/pubmedly"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/robsimpsondev/pubmedly"
@@ -33,6 +34,10 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "nokogiri"
 
+  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "os"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-reload"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rubocop"
@@ -40,10 +45,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop-rspec"
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
-  spec.add_development_dependency "byebug"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "pry-reload"
-  spec.add_development_dependency "os"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

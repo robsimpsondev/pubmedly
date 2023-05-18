@@ -7,6 +7,31 @@ AllCops:
   SuggestExtensions: true
   NewCops: enable
 
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/ModuleLength:
+  Exclude:
+    - "spec/**/*"
+
+RSpec/ExampleLength:
+  Enabled: False
+
+RSpec/MultipleExpectations:
+  Enabled: False
+
+Style/NumericLiterals:
+  Enabled: false
+
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
@@ -15,5 +40,5 @@ Style/StringLiteralsInInterpolation:
   Enabled: true
   EnforcedStyle: double_quotes
 
-Layout/LineLength:
-  Max: 120
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma

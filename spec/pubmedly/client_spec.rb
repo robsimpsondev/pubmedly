@@ -6,12 +6,12 @@ require "net/http"
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes/"
   config.hook_into :webmock
-  config.filter_sensitive_data("<NCBI_API_KEY>") { ENV["NCBI_API_KEY"] }
+  config.filter_sensitive_data("<NCBI_API_KEY>") { ENV.fetch("NCBI_API_KEY", nil) }
 end
 
 module Pubmedly
   RSpec.describe Client do
-    let(:client) { Client.new(ENV["NCBI_API_KEY"]) }
+    let(:client) { described_class.new(ENV.fetch("NCBI_API_KEY", nil)) }
 
     describe "#search" do
       # https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch
@@ -45,7 +45,7 @@ module Pubmedly
 
         describe "field tags" do
           # https://pubmed.ncbi.nlm.nih.gov/help/#using-search-field-tags
-          
+
           it "use [au] for author" do
             # https://pubmed.ncbi.nlm.nih.gov/help/#author-search
             VCR.use_cassette("client/search/simpson[au]") do
@@ -78,7 +78,7 @@ module Pubmedly
             VCR.use_cassette("client/search/long covid last 7 days pdat") do
               response = client.search("long covid \"last 7 days\" [pdat]")
               expect(response).to be_a Net::HTTPOK
-              expect(response.body).to include '2023/04/29'
+              expect(response.body).to include "2023/04/29"
             end
           end
 
@@ -87,7 +87,7 @@ module Pubmedly
             VCR.use_cassette("client/search/long covid last 7 days crdt") do
               response = client.search("long covid \"last 7 days\" [crdt]")
               expect(response).to be_a Net::HTTPOK
-              expect(response.body).to include '2023/04/29'
+              expect(response.body).to include "2023/04/29"
             end
           end
 
@@ -97,7 +97,8 @@ module Pubmedly
             VCR.use_cassette("client/search/reverse transcriptase inhibitors [pa]") do
               response = client.search("reverse transcriptase inhibitors [pa]")
               expect(response).to be_a Net::HTTPOK
-              expect(response.body).to include "<QueryTranslation>\"reverse transcriptase inhibitors\"[Pharmacological Action]"
+              expect(response.body).to include "<QueryTranslation>\"reverse transcriptase inhibitors\"" \
+                                               "[Pharmacological Action]"
             end
           end
 
@@ -108,7 +109,6 @@ module Pubmedly
               expect(response.body).to include "<QueryTranslation>\"university of glasgow\"[Affiliation]"
             end
           end
-
 
           describe "title and abstract fields" do
             it "use [ti] for Title" do
@@ -216,9 +216,6 @@ module Pubmedly
             expect(response.body).to include "[Date - Create]</QueryTranslation>"
           end
         end
-      end
-
-      describe "optional parameters for the history server" do
       end
     end
 
