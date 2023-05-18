@@ -1,5 +1,11 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
   TargetRubyVersion: 3.0
+  SuggestExtensions: true
+  NewCops: enable
 
 Style/StringLiterals:
   Enabled: true

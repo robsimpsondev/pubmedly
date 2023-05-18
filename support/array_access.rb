@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # From Rails: https://github.com/rails/rails/blob/8015c2c2cf5c8718449677570f372ceb01318a32/activesupport/lib/active_support/core_ext/array/access.rb
-
 class Array
   # Returns the tail of the array from +position+.
   #
@@ -49,7 +48,7 @@ class Array
   def excluding(*elements)
     self - elements.flatten(1)
   end
-  alias :without :excluding
+  alias without excluding
 
   # Equal to <tt>self[1]</tt>.
   #

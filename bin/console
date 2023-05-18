@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require "bundler/setup"
+
 require "pubmedly"
 if ENV["NCBI_API_KEY"]
   puts "Using $NCBI_API_KEY to initialize @client, @pubmed..."
@@ -12,12 +13,14 @@ else
 end
 
 # utilities
+require_relative "../support/array_access"
+
 require "os"
 if OS.mac?
   def pbcopy(input)
-   str = input.to_s
-   IO.popen('pbcopy', 'w') { |f| f << str }
-   str
+    str = input.to_s
+    IO.popen("pbcopy", "w") { |f| f << str }
+    str
   end
 end
 
