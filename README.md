@@ -1,7 +1,5 @@
 # Pubmedly
 
-**WIP**
-
 This gem provides a `Pubmedly::Client` with methods that get data from the NCBI's [Pubmed database](https://pubmed.ncbi.nlm.nih.gov/) using their [eutils APIs](https://www.ncbi.nlm.nih.gov/books/NBK25499/).
 
 Furthermore, this gem provides a `Pubmedly::Pubmed` class that makes interacting with the eutils APIs easier by parsing the XML responses into useful Ruby objects.
@@ -10,17 +8,16 @@ You will need an API key to use this gem; doing this is simple and described wit
 
 ## Installation
 
-Requirements: Ruby.
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Requirements:
+ - Ruby 3.0+
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ bundle add pubmedly
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ gem install pubmedly
 
 ## Usage
 
@@ -86,7 +83,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
  - MAJOR version when you make incompatible API changes
  - MINOR version when you add functionality in a backward compatible manner
  - PATCH version when you make backward compatible bug fixes
- 
+
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 ## License
