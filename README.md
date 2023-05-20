@@ -77,6 +77,18 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/robsim
 
 With write access to the `main` branch one can release a new version by updating the version number in `version.rb`, and running `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
+## Versioning
+
+This project uses [Semantic Versioning](https://semver.org/).
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+ - MAJOR version when you make incompatible API changes
+ - MINOR version when you add functionality in a backward compatible manner
+ - PATCH version when you make backward compatible bug fixes
+ 
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

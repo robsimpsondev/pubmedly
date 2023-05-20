@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.2.0] - 2023-05-20
+
 - Pubmed and Client classes
 - Updated README
 - Specs
