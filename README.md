@@ -1,4 +1,5 @@
 # Pubmedly
+![main](https://github.com/robsimpsondev/pubmedly/actions/workflows/main.yml/badge.svg)
 
 This gem provides a `Pubmedly::Client` with methods that get data from the NCBI's [Pubmed database](https://pubmed.ncbi.nlm.nih.gov/) using their [eutils APIs](https://www.ncbi.nlm.nih.gov/books/NBK25499/).
 
