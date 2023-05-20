@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# Used in specs and console only; not part of the gem.
+
 # From Rails: https://github.com/rails/rails/blob/8015c2c2cf5c8718449677570f372ceb01318a32/activesupport/lib/active_support/core_ext/array/access.rb
 class Array
   # Returns the tail of the array from +position+.

@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in pubmedly.gemspec
+# Specify gem dependencies in pubmedly.gemspec
 gemspec
