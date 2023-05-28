@@ -40,6 +40,14 @@ module Pubmedly
         end
       end
 
+      def first_author
+        authors.first
+      end
+
+      def last_author
+        authors.last
+      end
+
       def pmid
         id = @xml.xpath(".//PMID").text.to_i
         id.zero? ? nil : id
