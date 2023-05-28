@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Add PUBMEDLY::FIELD_TAGS
+
 ## [0.2.0] - 2023-05-20
 
 - Pubmed and Client classes
