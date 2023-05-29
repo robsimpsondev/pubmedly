@@ -1,4 +1,4 @@
-## [Unreleased]
+## [0.3.0] - 2023-05-29
 
 - Add PUBMEDLY::FIELD_TAGS
 - Add Article#first/last_author
