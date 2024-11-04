@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pubmedly (0.2.0)
+    pubmedly (0.3.0)
       nokogiri
 
 GEM

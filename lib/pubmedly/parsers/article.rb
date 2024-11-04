@@ -52,6 +52,14 @@ module Pubmedly
         id = @xml.xpath(".//PMID").text.to_i
         id.zero? ? nil : id
       end
+
+      def pmcid
+        @xml.xpath(".//PubmedData/ArticleIdList/ArticleId [@IdType='pmc']")&.text
+      end
+
+      def doi
+        @xml.xpath(".//ELocationID [@EIdType='doi']")&.text
+      end
     end
   end
 end

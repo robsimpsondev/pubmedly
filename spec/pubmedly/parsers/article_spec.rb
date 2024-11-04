@@ -71,6 +71,26 @@ module Pubmedly
           expect(random_xml.pmid).to be_nil
         end
       end
+
+      describe "pmcid" do
+        it "returns the pmcid of the article" do
+          expect(article.pmcid).to eq "PMC10144661"
+        end
+
+        it "returns empty string if no doi is found" do
+          expect(random_xml.pmcid).to eq ""
+        end
+      end
+
+      describe "doi" do
+        it "returns the doi" do
+          expect(article.doi).to eq "10.3390/microorganisms11041024"
+        end
+
+        it "returns empty string if no doi is found" do
+          expect(random_xml.doi).to eq ""
+        end
+      end
     end
   end
 end
